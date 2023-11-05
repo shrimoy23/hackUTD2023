@@ -49,8 +49,10 @@ struct LoginView: View {
                 Spacer()
                 Spacer()
             }
-            .background(Color(.systemGroupedBackground))
-            .navigationBarHidden(true)
+            .ignoresSafeArea(edges: .top) // This will extend the background color to the top of the screen
+            .navigationBarBackButtonHidden(true)
+            .font(.custom("Helvetica Neue", size: 17)) // Sets a custom font for all text within LoginView
+            .navigationBarBackButtonHidden(true)
         }
     }
 }

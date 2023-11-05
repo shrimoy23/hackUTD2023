@@ -1,13 +1,20 @@
 import Foundation
 
-struct Property: Codable {
-    var id: String
+struct Property: Codable, Identifiable {
     var address: String
     var squareFootage: Int
+    var id: String
+
+    enum CodingKeys: String, CodingKey {
+        case address
+        case squareFootage = "square_foot"
+        case id
+    }
 }
 
+
 class FirestoreService: ObservableObject {
-    private let serverURL = "http://127.0.0.1:5000"
+    private let serverURL = "http://192.168.4.26:5000"
 
     // Fetches the list of properties from the server
     func fetchProperties(completion: @escaping ([Property]?, Error?) -> Void) {
@@ -37,12 +44,12 @@ class FirestoreService: ObservableObject {
     }
 
     // Sends new property data to the server
-    func addProperty(address: String, squareFootage: Int, completion: @escaping (Bool, Error?) -> Void) {
+    func addProperty(id: String, address: String, squareFootage: Int, completion: @escaping (Bool, Error?) -> Void) {
         let urlString = "\(serverURL)/add_house"
         guard let url = URL(string: urlString) else { return }
 
         // Prepare the data to be sent in the request
-        let propertyData = Property(id: UUID().uuidString, address: address, squareFootage: squareFootage)
+        let propertyData = Property(address: address, squareFootage: squareFootage, id: id)
         guard let uploadData = try? JSONEncoder().encode(propertyData) else {
             completion(false, nil)
             return
@@ -54,6 +61,7 @@ class FirestoreService: ObservableObject {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpBody = uploadData
 
+        // Create the data task
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200, error == nil else {
                 DispatchQueue.main.async {
@@ -67,8 +75,11 @@ class FirestoreService: ObservableObject {
                 completion(true, nil)
             }
         }
+
+        // Start the task
         task.resume()
     }
+
     
     func deleteProperty(_ propertyId: String, completion: @escaping (Bool, Error?) -> Void) {
         let urlString = "\(serverURL)/delete_house/\(propertyId)"

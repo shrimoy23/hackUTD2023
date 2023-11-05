@@ -12,8 +12,9 @@ def home():
 
     houses = []
     for doc in docs:
-        houses.append(doc.to_dict())
-
+        house = doc.to_dict()
+        house['id'] = doc.id  # Add the document ID as 'id'
+        houses.append(house)
     return jsonify(houses)
 
 @main.route('/camera', methods=['GET'])
@@ -41,7 +42,17 @@ def add_house():
 def button():
     return render_template('page.html')
 
+@main.route('/delete_house', methods=['DELETE'])
+def delete_house():
+    data = request.get_json()  # get the data from the request
+    doc_id = data.get('id')  # get the document ID from the data
 
+    if doc_id:
+        # delete the document from the 'houses' collection
+        db.collection('houses').document(doc_id).delete()
+        return jsonify({"message": "House deleted successfully"}), 200
+    else:
+        return jsonify({"message": "Invalid request, no ID provided"}), 400
 
 # @main.route('/predict', methods=['POST'])
 # def predict():
