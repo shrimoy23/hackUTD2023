@@ -12,7 +12,8 @@ server/glossy-fastness-404223-4f353d9f4ab3.json
 .history
 .svn/
 migrate_working_dir/
-client/client.xcodeproj/project.pbxproj
+**/xcuserdata/
+
 
 # IntelliJ related
 *.iml
