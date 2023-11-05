@@ -5,9 +5,8 @@ struct PropertyInputView: View {
     @State private var address: String = ""
     @State private var squareFootage: String = ""
     @Environment(\.presentationMode) var presentationMode
-    var firestoreService: FirestoreService // Pass the FirestoreService instance
+    var firestoreService: FirestoreService
     
-    // Computed property to determine if the input is valid
     private var isInputValid: Bool {
         return !address.isEmpty && Int(squareFootage) != nil
     }
@@ -33,7 +32,7 @@ struct PropertyInputView: View {
                         .background(isInputValid ? Color.blue : Color.gray)
                         .cornerRadius(8)
                 }
-                .disabled(!isInputValid) // Disable the button if the input is not valid
+                .disabled(!isInputValid)
             }
             .navigationTitle("New Property")
             .navigationBarTitleDisplayMode(.inline)
@@ -52,18 +51,13 @@ struct PropertyInputView: View {
         
         firestoreService.addProperty(address: address, squareFootage: squareFootageInt) { success, error in
             if success {
-                // The property was added successfully
                 DispatchQueue.main.async {
-                    // Start the camera session
                     self.isPresentingCamera = true
-                    // Dismiss the current view
                     self.presentationMode.wrappedValue.dismiss()
                 }
             } else if let error = error {
-                // An error occurred while adding the property
                 DispatchQueue.main.async {
                     print("Error adding property: \(error.localizedDescription)")
-                    // Handle the error, possibly by showing an alert to the user
                 }
             }
         }
@@ -73,5 +67,3 @@ struct PropertyInputView: View {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
-
-// Ensure you provide a `firestoreService` instance when presenting this view

@@ -15,8 +15,8 @@ struct RenoVisionAIApp: App {
  
     var body: some Scene {
         WindowGroup {
-            LoginView()
-                .environment(\.font, Font.custom("YourFontName", size: 17))
+            ContentView()
+                .environment(\.font, Font.custom("Helvetica Neue", size: 17))
         }
     }
 }
