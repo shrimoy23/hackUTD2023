@@ -10,10 +10,34 @@
 		AC2511832AF74E25001374E9 /* clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511822AF74E25001374E9 /* clientApp.swift */; };
 		AC2511852AF74E25001374E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511842AF74E25001374E9 /* ContentView.swift */; };
 		AC2511872AF74E26001374E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2511862AF74E26001374E9 /* Assets.xcassets */; };
-		AC2511922AF75006001374E9 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511912AF75006001374E9 /* CustomARView.swift */; };
 		AC2511942AF75035001374E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511932AF75035001374E9 /* LoginView.swift */; };
 		AC2511962AF7504B001374E9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511952AF7504B001374E9 /* Item.swift */; };
-		AC2511982AF750C9001374E9 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511972AF750C9001374E9 /* CustomARViewRepresentable.swift */; };
+		AC25119B2AF752FF001374E9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC25119A2AF752FF001374E9 /* ARKit.framework */; };
+		AC25119D2AF75303001374E9 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC25119C2AF75303001374E9 /* Metal.framework */; };
+		AC25119F2AF75307001374E9 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC25119E2AF75307001374E9 /* MetalKit.framework */; };
+		AC2511A22AF7547B001374E9 /* Memory.metal in Sources */ = {isa = PBXBuildFile; fileRef = AC2511A12AF7547B001374E9 /* Memory.metal */; };
+		AC2511A42AF754A6001374E9 /* Color.metal in Sources */ = {isa = PBXBuildFile; fileRef = AC2511A32AF754A6001374E9 /* Color.metal */; };
+		AC2511A92AF75728001374E9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511A82AF75728001374E9 /* Coordinator.swift */; };
+		AC2511AB2AF75739001374E9 /* MainRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511AA2AF75739001374E9 /* MainRenderer.swift */; };
+		AC2511AD2AF7578A001374E9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511AC2AF7578A001374E9 /* ActivityViewController.swift */; };
+		AC2511B12AF75851001374E9 /* CameraMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511B02AF75851001374E9 /* CameraMeasurements.swift */; };
+		AC2511B32AF75858001374E9 /* SceneRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511B22AF75858001374E9 /* SceneRenderer.swift */; };
+		AC2511B52AF7585E001374E9 /* DelegateRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511B42AF7585E001374E9 /* DelegateRenderer.swift */; };
+		AC2511B72AF75864001374E9 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511B62AF75864001374E9 /* UserSettings.swift */; };
+		AC2511B92AF7586D001374E9 /* SceneMeshReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511B82AF7586D001374E9 /* SceneMeshReducer.swift */; };
+		AC2511BB2AF75876001374E9 /* Scene2DShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AC2511BA2AF75876001374E9 /* Scene2DShaders.metal */; };
+		AC2511BD2AF75880001374E9 /* LiDARMeshShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AC2511BC2AF75880001374E9 /* LiDARMeshShaders.metal */; };
+		AC2511BF2AF7588A001374E9 /* SceneMeshReduction.metal in Sources */ = {isa = PBXBuildFile; fileRef = AC2511BE2AF7588A001374E9 /* SceneMeshReduction.metal */; };
+		AC2511C12AF758F9001374E9 /* CoreVideoExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511C02AF758F9001374E9 /* CoreVideoExtensions.swift */; };
+		AC2511C32AF75901001374E9 /* DeviceMeasurementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511C22AF75901001374E9 /* DeviceMeasurementProvider.swift */; };
+		AC2511C52AF7590D001374E9 /* DeviceMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511C42AF7590D001374E9 /* DeviceMeasurements.swift */; };
+		AC2511C72AF75915001374E9 /* FutureDeviceMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511C62AF75915001374E9 /* FutureDeviceMeasurements.swift */; };
+		AC2511C92AF7591A001374E9 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511C82AF7591A001374E9 /* MathUtilities.swift */; };
+		AC2511CB2AF75922001374E9 /* simdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511CA2AF75922001374E9 /* simdExtensions.swift */; };
+		AC2511CD2AF7592A001374E9 /* MetalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511CC2AF7592A001374E9 /* MetalExtensions.swift */; };
+		AC2511CF2AF75931001374E9 /* MTLLayeredBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511CE2AF75931001374E9 /* MTLLayeredBuffer.swift */; };
+		AC2511D12AF75936001374E9 /* DebuggingUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511D02AF75936001374E9 /* DebuggingUtilities.swift */; };
+		AC2511D42AF75A1D001374E9 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC2511D32AF75A1D001374E9 /* DeviceKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +45,35 @@
 		AC2511822AF74E25001374E9 /* clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clientApp.swift; sourceTree = "<group>"; };
 		AC2511842AF74E25001374E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC2511862AF74E26001374E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC2511912AF75006001374E9 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		AC2511932AF75035001374E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AC2511952AF7504B001374E9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		AC2511972AF750C9001374E9 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		AC25119A2AF752FF001374E9 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		AC25119C2AF75303001374E9 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		AC25119E2AF75307001374E9 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		AC2511A12AF7547B001374E9 /* Memory.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Memory.metal; sourceTree = "<group>"; };
+		AC2511A32AF754A6001374E9 /* Color.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Color.metal; sourceTree = "<group>"; };
+		AC2511A52AF754B6001374E9 /* Memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		AC2511A62AF754BC001374E9 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		AC2511A82AF75728001374E9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AC2511AA2AF75739001374E9 /* MainRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRenderer.swift; sourceTree = "<group>"; };
+		AC2511AC2AF7578A001374E9 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		AC2511B02AF75851001374E9 /* CameraMeasurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMeasurements.swift; sourceTree = "<group>"; };
+		AC2511B22AF75858001374E9 /* SceneRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRenderer.swift; sourceTree = "<group>"; };
+		AC2511B42AF7585E001374E9 /* DelegateRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateRenderer.swift; sourceTree = "<group>"; };
+		AC2511B62AF75864001374E9 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		AC2511B82AF7586D001374E9 /* SceneMeshReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneMeshReducer.swift; sourceTree = "<group>"; };
+		AC2511BA2AF75876001374E9 /* Scene2DShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Scene2DShaders.metal; sourceTree = "<group>"; };
+		AC2511BC2AF75880001374E9 /* LiDARMeshShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LiDARMeshShaders.metal; sourceTree = "<group>"; };
+		AC2511BE2AF7588A001374E9 /* SceneMeshReduction.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SceneMeshReduction.metal; sourceTree = "<group>"; };
+		AC2511C02AF758F9001374E9 /* CoreVideoExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVideoExtensions.swift; sourceTree = "<group>"; };
+		AC2511C22AF75901001374E9 /* DeviceMeasurementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMeasurementProvider.swift; sourceTree = "<group>"; };
+		AC2511C42AF7590D001374E9 /* DeviceMeasurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMeasurements.swift; sourceTree = "<group>"; };
+		AC2511C62AF75915001374E9 /* FutureDeviceMeasurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDeviceMeasurements.swift; sourceTree = "<group>"; };
+		AC2511C82AF7591A001374E9 /* MathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		AC2511CA2AF75922001374E9 /* simdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simdExtensions.swift; sourceTree = "<group>"; };
+		AC2511CC2AF7592A001374E9 /* MetalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalExtensions.swift; sourceTree = "<group>"; };
+		AC2511CE2AF75931001374E9 /* MTLLayeredBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLLayeredBuffer.swift; sourceTree = "<group>"; };
+		AC2511D02AF75936001374E9 /* DebuggingUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC25119F2AF75307001374E9 /* MetalKit.framework in Frameworks */,
+				AC2511D42AF75A1D001374E9 /* DeviceKit in Frameworks */,
+				AC25119D2AF75303001374E9 /* Metal.framework in Frameworks */,
+				AC25119B2AF752FF001374E9 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +96,7 @@
 			children = (
 				AC2511812AF74E25001374E9 /* client */,
 				AC2511802AF74E25001374E9 /* Products */,
+				AC2511992AF752FF001374E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +121,77 @@
 		AC2511902AF74F2D001374E9 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				AC2511A72AF756FC001374E9 /* VisionKit */,
 				AC2511842AF74E25001374E9 /* ContentView.swift */,
-				AC2511912AF75006001374E9 /* CustomARView.swift */,
 				AC2511932AF75035001374E9 /* LoginView.swift */,
 				AC2511952AF7504B001374E9 /* Item.swift */,
-				AC2511972AF750C9001374E9 /* CustomARViewRepresentable.swift */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		AC2511992AF752FF001374E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC25119E2AF75307001374E9 /* MetalKit.framework */,
+				AC25119C2AF75303001374E9 /* Metal.framework */,
+				AC25119A2AF752FF001374E9 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC2511A02AF75468001374E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC2511A12AF7547B001374E9 /* Memory.metal */,
+				AC2511A32AF754A6001374E9 /* Color.metal */,
+				AC2511A52AF754B6001374E9 /* Memory.h */,
+				AC2511A62AF754BC001374E9 /* Color.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AC2511A72AF756FC001374E9 /* VisionKit */ = {
+			isa = PBXGroup;
+			children = (
+				AC2511A02AF75468001374E9 /* Utilities */,
+				AC2511AF2AF7580B001374E9 /* Delegate */,
+				AC2511AE2AF75805001374E9 /* Extension */,
+				AC2511A82AF75728001374E9 /* Coordinator.swift */,
+				AC2511AA2AF75739001374E9 /* MainRenderer.swift */,
+				AC2511AC2AF7578A001374E9 /* ActivityViewController.swift */,
+			);
+			path = VisionKit;
+			sourceTree = "<group>";
+		};
+		AC2511AE2AF75805001374E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC2511C02AF758F9001374E9 /* CoreVideoExtensions.swift */,
+				AC2511C22AF75901001374E9 /* DeviceMeasurementProvider.swift */,
+				AC2511C42AF7590D001374E9 /* DeviceMeasurements.swift */,
+				AC2511C62AF75915001374E9 /* FutureDeviceMeasurements.swift */,
+				AC2511C82AF7591A001374E9 /* MathUtilities.swift */,
+				AC2511CA2AF75922001374E9 /* simdExtensions.swift */,
+				AC2511CC2AF7592A001374E9 /* MetalExtensions.swift */,
+				AC2511CE2AF75931001374E9 /* MTLLayeredBuffer.swift */,
+				AC2511D02AF75936001374E9 /* DebuggingUtilities.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AC2511AF2AF7580B001374E9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AC2511B02AF75851001374E9 /* CameraMeasurements.swift */,
+				AC2511B22AF75858001374E9 /* SceneRenderer.swift */,
+				AC2511B42AF7585E001374E9 /* DelegateRenderer.swift */,
+				AC2511B62AF75864001374E9 /* UserSettings.swift */,
+				AC2511B82AF7586D001374E9 /* SceneMeshReducer.swift */,
+				AC2511BA2AF75876001374E9 /* Scene2DShaders.metal */,
+				AC2511BC2AF75880001374E9 /* LiDARMeshShaders.metal */,
+				AC2511BE2AF7588A001374E9 /* SceneMeshReduction.metal */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +210,9 @@
 			dependencies = (
 			);
 			name = client;
+			packageProductDependencies = (
+				AC2511D32AF75A1D001374E9 /* DeviceKit */,
+			);
 			productName = client;
 			productReference = AC25117F2AF74E25001374E9 /* client.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +241,9 @@
 				Base,
 			);
 			mainGroup = AC2511762AF74E25001374E9;
+			packageReferences = (
+				AC2511D22AF75A1D001374E9 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
 			productRefGroup = AC2511802AF74E25001374E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,12 +269,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2511B32AF75858001374E9 /* SceneRenderer.swift in Sources */,
 				AC2511962AF7504B001374E9 /* Item.swift in Sources */,
-				AC2511982AF750C9001374E9 /* CustomARViewRepresentable.swift in Sources */,
+				AC2511BB2AF75876001374E9 /* Scene2DShaders.metal in Sources */,
+				AC2511AB2AF75739001374E9 /* MainRenderer.swift in Sources */,
+				AC2511C92AF7591A001374E9 /* MathUtilities.swift in Sources */,
+				AC2511A22AF7547B001374E9 /* Memory.metal in Sources */,
+				AC2511D12AF75936001374E9 /* DebuggingUtilities.swift in Sources */,
+				AC2511C52AF7590D001374E9 /* DeviceMeasurements.swift in Sources */,
+				AC2511BD2AF75880001374E9 /* LiDARMeshShaders.metal in Sources */,
+				AC2511CF2AF75931001374E9 /* MTLLayeredBuffer.swift in Sources */,
+				AC2511C72AF75915001374E9 /* FutureDeviceMeasurements.swift in Sources */,
+				AC2511B52AF7585E001374E9 /* DelegateRenderer.swift in Sources */,
+				AC2511B92AF7586D001374E9 /* SceneMeshReducer.swift in Sources */,
 				AC2511852AF74E25001374E9 /* ContentView.swift in Sources */,
-				AC2511922AF75006001374E9 /* CustomARView.swift in Sources */,
 				AC2511942AF75035001374E9 /* LoginView.swift in Sources */,
+				AC2511C32AF75901001374E9 /* DeviceMeasurementProvider.swift in Sources */,
+				AC2511C12AF758F9001374E9 /* CoreVideoExtensions.swift in Sources */,
+				AC2511BF2AF7588A001374E9 /* SceneMeshReduction.metal in Sources */,
 				AC2511832AF74E25001374E9 /* clientApp.swift in Sources */,
+				AC2511A42AF754A6001374E9 /* Color.metal in Sources */,
+				AC2511B12AF75851001374E9 /* CameraMeasurements.swift in Sources */,
+				AC2511A92AF75728001374E9 /* Coordinator.swift in Sources */,
+				AC2511B72AF75864001374E9 /* UserSettings.swift in Sources */,
+				AC2511CB2AF75922001374E9 /* simdExtensions.swift in Sources */,
+				AC2511AD2AF7578A001374E9 /* ActivityViewController.swift in Sources */,
+				AC2511CD2AF7592A001374E9 /* MetalExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +502,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC2511D22AF75A1D001374E9 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC2511D32AF75A1D001374E9 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC2511D22AF75A1D001374E9 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC2511772AF74E25001374E9 /* Project object */;
 }

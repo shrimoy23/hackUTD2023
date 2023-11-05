@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import MetalKit
 
 struct GraphView: View {
     var body: some View {
@@ -69,13 +70,28 @@ struct HomeCardView: View {
     }
 }
 
+struct HomeDetailsView: View {
+    var homeNumber: Int
 
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Home \(homeNumber) Details")
+                .font(.headline)
+            GraphView()
+        }
+        .padding()
+        .navigationTitle("Details for Home \(homeNumber)")
+        .navigationBarBackButtonHidden(true)
+    }
+}
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
     @State private var homeCount: Int = 0
     @State private var showingCameraView = false
+
+    @StateObject var coordinator = Coordinator()
 
     var body: some View {
         NavigationSplitView {
@@ -111,7 +127,7 @@ struct ContentView: View {
                 }
             )
             .sheet(isPresented: $showingCameraView) {
-                CustomARViewRepresentable()
+                ARDisplayView(coordinator: coordinator, isPresenting: $showingCameraView)
             }
         } detail: {
             if homeCount > 0 {
@@ -137,17 +153,49 @@ struct ContentView: View {
     }
 }
 
-struct HomeDetailsView: View {
-    var homeNumber: Int
+struct ARDisplayView: View {
+    @ObservedObject var coordinator: Coordinator
+    @Binding var isPresenting: Bool
 
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Home \(homeNumber) Details")
-                .font(.headline)
-            GraphView()
+        let bounds = UIScreen.main.bounds
+        
+        ZStack {
+            MetalView(coordinator: coordinator)
+                .disabled(false)
+                .frame(width: bounds.height, height: bounds.width)
+                .rotationEffect(.degrees(90))
+                .position(x: bounds.width * 0.5, y: bounds.height * 0.5)
+            
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        isPresenting = false
+                    }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .padding()
+                    }
+                }
+                Spacer()
+            }
         }
-        .padding()
-        .navigationTitle("Details for Home \(homeNumber)")
-        .navigationBarBackButtonHidden(true)
     }
+}
+
+
+struct MetalView: UIViewRepresentable {
+    @ObservedObject var coordinator: Coordinator
+    
+    func makeCoordinator() -> Coordinator {
+        coordinator
+    }
+    
+    func makeUIView(context: Context) -> MTKView {
+        context.coordinator.view
+    }
+    
+    func updateUIView(_ uiView: MTKView, context: Context) {}
 }
