@@ -3,7 +3,7 @@ import Foundation
 struct Property: Codable, Identifiable {
     var address: String
     var squareFootage: Int
-    var id: String
+    var id: String?
 
     enum CodingKeys: String, CodingKey {
         case address
@@ -44,12 +44,11 @@ class FirestoreService: ObservableObject {
     }
     
     // Sends new property data to the server
-    func addProperty(id: String, address: String, squareFootage: Int, completion: @escaping (Bool, Error?) -> Void) {
+    func addProperty(address: String, squareFootage: Int, completion: @escaping (Bool, Error?) -> Void) {
         let urlString = "\(serverURL)/add_house"
         guard let url = URL(string: urlString) else { return }
-        
-        // Prepare the data to be sent in the request
-        let propertyData = Property(address: address, squareFootage: squareFootage, id: id)
+
+        let propertyData = Property(address: address, squareFootage: squareFootage)
         guard let uploadData = try? JSONEncoder().encode(propertyData) else {
             completion(false, nil)
             return

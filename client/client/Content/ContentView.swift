@@ -133,6 +133,7 @@ struct ContentView: View {
     @StateObject private var firestoreService = FirestoreService()
     @State private var properties: [Property] = []
     @State private var showingPropertyInputView = false
+    @State private var showingCameraView = false
 
     var body: some View {
         NavigationView {
@@ -181,13 +182,12 @@ struct ContentView: View {
                             .cornerRadius(10)
                     }
                     .padding()
-                    .sheet(isPresented: $showingPropertyInputView) {
-                        // Present your property input view here
-                        // PropertyInputView(isPresenting: $showingPropertyInputView)
+                    .sheet(isPresented: $showingPropertyInputView) { // This should be $showingPropertyInputView
+                        PropertyInputView(isPresentingCamera: $showingCameraView, firestoreService: firestoreService)
                     }
+
                 }
             }
-            .navigationTitle("Properties")
             .navigationBarItems(trailing: Button("Refresh") {
                 fetchProperties()
             })
@@ -208,8 +208,7 @@ struct ContentView: View {
     }
 
     private func addProperty(address: String, squareFootage: Int) {
-        let id = UUID().uuidString // Generate ID for the new property
-        firestoreService.addProperty(id: id, address: address, squareFootage: squareFootage) { success, error in
+        firestoreService.addProperty(address: address, squareFootage: squareFootage) { success, error in
             if success {
                 fetchProperties()
             } else if let error = error {
@@ -218,20 +217,24 @@ struct ContentView: View {
         }
     }
 
+
     private func deleteProperty(at offsets: IndexSet) {
         for index in offsets {
             let property = properties[index]
-            firestoreService.deleteProperty(property.id) { success, error in
-                if success {
-                    DispatchQueue.main.async {
-                        properties.remove(atOffsets: offsets)
+            if let propertyId = property.id {
+                firestoreService.deleteProperty(propertyId) { success, error in
+                    if success {
+                        DispatchQueue.main.async {
+                            properties.remove(atOffsets: offsets)
+                        }
+                    } else if let error = error {
+                        print(error.localizedDescription)
                     }
-                } else if let error = error {
-                    print(error.localizedDescription)
                 }
             }
         }
     }
+
 }
 
 extension Color {

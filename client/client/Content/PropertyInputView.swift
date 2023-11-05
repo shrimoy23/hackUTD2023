@@ -4,13 +4,14 @@ struct PropertyInputView: View {
     @Binding var isPresentingCamera: Bool
     @State private var address: String = ""
     @State private var squareFootage: String = ""
-    @Environment(\.dismiss) private var dismiss // Dismiss action
-
+    @Environment(\.presentationMode) var presentationMode
+    var firestoreService: FirestoreService // Pass the FirestoreService instance
+    
     // Computed property to determine if the input is valid
     private var isInputValid: Bool {
-        !address.isEmpty && !squareFootage.isEmpty
+        return !address.isEmpty && Int(squareFootage) != nil
     }
-
+    
     var body: some View {
         NavigationView {
             Form {
@@ -21,33 +22,56 @@ struct PropertyInputView: View {
                 }
                 
                 Button(action: {
+                    print("Start Scanning button tapped")
                     if isInputValid {
-                        isPresentingCamera = true
-                        dismiss() // Dismiss the current view
+                        addPropertyAndStartScanning()
                     }
                 }) {
-                    Text("Swipe down to continue")
+                    Text("Start Scanning")
                         .frame(maxWidth: .infinity, minHeight: 44)
                         .foregroundColor(.white)
                         .background(isInputValid ? Color.blue : Color.gray)
                         .cornerRadius(8)
                 }
+                .disabled(!isInputValid) // Disable the button if the input is not valid
             }
             .navigationTitle("New Property")
             .navigationBarTitleDisplayMode(.inline)
-            .onTapGesture {
-                hideKeyboard()
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }
             }
         }
     }
-
+    
+    private func addPropertyAndStartScanning() {
+        guard let squareFootageInt = Int(squareFootage), !address.isEmpty else { return }
+        
+        firestoreService.addProperty(address: address, squareFootage: squareFootageInt) { success, error in
+            if success {
+                // The property was added successfully
+                DispatchQueue.main.async {
+                    // Start the camera session
+                    self.isPresentingCamera = true
+                    // Dismiss the current view
+                    self.presentationMode.wrappedValue.dismiss()
+                }
+            } else if let error = error {
+                // An error occurred while adding the property
+                DispatchQueue.main.async {
+                    print("Error adding property: \(error.localizedDescription)")
+                    // Handle the error, possibly by showing an alert to the user
+                }
+            }
+        }
+    }
+    
     func hideKeyboard() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
 
-struct PropertyInputView_Previews: PreviewProvider {
-    static var previews: some View {
-        PropertyInputView(isPresentingCamera: .constant(false))
-    }
-}
+// Ensure you provide a `firestoreService` instance when presenting this view
