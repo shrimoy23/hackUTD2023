@@ -129,93 +129,74 @@ struct MetalView: UIViewRepresentable {
 }
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @State private var homeCount: Int = 0
-    @State private var showingCameraView = false
-    @State private var showingPropertyInputView = false
+    @Environment(\.presentationMode) var presentationMode
     @StateObject private var firestoreService = FirestoreService()
-    @StateObject var coordinator = Coordinator()
     @State private var properties: [Property] = []
+    @State private var showingPropertyInputView = false
 
-    // Define your color palette
-    let richBlack = Color(hex: "04080F")
-    let glaucous = Color(hex: "507DBC")
-    let powderBlue = Color(hex: "A1C6EA")
-    let columbiaBlue = Color(hex: "BBD1EA")
-    let platinum = Color(hex: "DAE3E5")
-
-    let dummyProperty = Property(address: "123 Main St", squareFootage: 1200)
-    
     var body: some View {
+        NavigationView {
             ZStack {
                 // Background color extending to the top of the screen
-                glaucous
+                Color("YourBackgroundColor") // Replace with your color
                     .edgesIgnoringSafeArea(.all)
 
                 // Main content
                 VStack(spacing: 0) {
-                    // Logo and title
-                    VStack {
-                        Text("RenoVision.AI")
-                            .font(.system(size: 32, weight: .bold)) // Make the title larger
-                            .foregroundColor(platinum)
-                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100)
-                            .padding(.top, 10) // Add padding to ensure it fits below the notch
-                            .background(glaucous)
-                    }
-                    .edgesIgnoringSafeArea(.top)
-
                     // Property cards container
                     ScrollView {
                         LazyVStack(spacing: 12) {
-                            // Add the dummy card for preview
-                            HomeCardView(property: dummyProperty)
-                                .background(columbiaBlue)
-                                .cornerRadius(10)
-                                .shadow(radius: 2)
-                            
                             // Existing properties
-                            ForEach(properties) { property in
-                                                HomeCardView(property: property)
-                                                    .background(columbiaBlue)
-                                                    .cornerRadius(10)
-                                                    .shadow(radius: 2)
+                            ForEach(properties, id: \.id) { property in
+                                HomeCardView(property: property)
+                                    .background(Color("YourCardBackgroundColor")) // Replace with your color
+                                    .cornerRadius(10)
+                                    .shadow(radius: 2)
+                                    .swipeActions {
+                                        Button(role: .destructive) {
+                                            if let index = properties.firstIndex(where: { $0.id == property.id }) {
+                                                deleteProperty(at: IndexSet(integer: index))
                                             }
+                                        } label: {
+                                            Label("Delete", systemImage: "trash")
                                         }
-                                        .padding()
                                     }
+                            }
+                        }
+                        .padding()
+                    }
+                    .refreshable {
+                        fetchProperties()
+                    }
 
-                    // Scan new property button
+                    // Add new property button
                     Button(action: {
                         showingPropertyInputView = true
                     }) {
-                        Text("Scan New Property")
-                            .font(.system(size: 18, weight: .bold))
+                        Text("Add New Property")
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(richBlack)
+                            .background(Color.blue) // Replace with your color
                             .cornerRadius(10)
                     }
                     .padding()
+                    .sheet(isPresented: $showingPropertyInputView) {
+                        // Present your property input view here
+                        // PropertyInputView(isPresenting: $showingPropertyInputView)
+                    }
                 }
             }
-            .sheet(isPresented: $showingPropertyInputView, onDismiss: {
-                if homeCount > 0 { // Assuming homeCount is updated when a new property is added
-                    showingCameraView = true
-                }
-            }) {
-                PropertyInputView(isPresentingCamera: $showingCameraView)
-            }
-            .sheet(isPresented: $showingCameraView) {
-                ARDisplayView(coordinator: coordinator, isPresenting: $showingCameraView)
-            }
+            .navigationTitle("Properties")
+            .navigationBarItems(trailing: Button("Refresh") {
+                fetchProperties()
+            })
             .onAppear {
                 fetchProperties()
             }
-            .navigationBarBackButtonHidden(true)
         }
-    
+    }
+
     private func fetchProperties() {
         firestoreService.fetchProperties { properties, error in
             if let properties = properties {
@@ -227,7 +208,8 @@ struct ContentView: View {
     }
 
     private func addProperty(address: String, squareFootage: Int) {
-        firestoreService.addProperty(address: address, squareFootage: squareFootage) { success, error in
+        let id = UUID().uuidString // Generate ID for the new property
+        firestoreService.addProperty(id: id, address: address, squareFootage: squareFootage) { success, error in
             if success {
                 fetchProperties()
             } else if let error = error {
@@ -239,20 +221,15 @@ struct ContentView: View {
     private func deleteProperty(at offsets: IndexSet) {
         for index in offsets {
             let property = properties[index]
-            firestoreService.deleteProperty(property.id.uuidString) { success, error in
+            firestoreService.deleteProperty(property.id) { success, error in
                 if success {
-                    properties.remove(at: index)
+                    DispatchQueue.main.async {
+                        properties.remove(atOffsets: offsets)
+                    }
                 } else if let error = error {
                     print(error.localizedDescription)
                 }
             }
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            homeCount += 1
-            showingPropertyInputView = true
         }
     }
 }
