@@ -1,5 +1,6 @@
 # RenoVision.AI - HackUTD2023
 # Shrimoy Satpathy, Kush Gupta, Akshat Sharma, Vishnu Nambiar
+Devpost: https://devpost.com/software/renovision
 
 ## Inspiration
 The challenge of evaluating properties accurately and efficiently in the real estate industry was our inspiration. We recognized that traditional methods of property assessment are often time-consuming and not fully encompassing regarding all potential variables affecting a property's value and condition. By harnessing the capabilities of LiDAR technology leveraging Machine Learning along with Artificial Intelligence, we envisioned a tool that could perform comprehensive analyses quickly and deliver insights that are both deep and actionable. 
