@@ -14,7 +14,7 @@ def home():
     for doc in docs:
         houses.append(doc.to_dict())
 
-    return jsonify(houses)
+    return render_template("content_view.html", houses=houses)
 
 @main.route('/camera', methods=['GET'])
 def camera():
