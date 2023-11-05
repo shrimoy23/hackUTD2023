@@ -1,7 +1,21 @@
 from flask import Blueprint, jsonify, request, render_template
 from app import db
+from apikey import apikey
+import os
+from langchain.llms import OpenAI
+from langchain.prompts import PromptTemplate 
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain, SequentialChain, ConversationChain
+from langchain.memory import ConversationBufferMemory
 #from ml_model import get_dataset
 
+os.environ['OPENAI_API_KEY'] = apikey
+llm = OpenAI(temperature=1)
+
+conversation = ConversationChain(
+        llm=llm, 
+        verbose=True, 
+        memory=ConversationBufferMemory())
 
 main = Blueprint('main', __name__)
 
@@ -53,7 +67,29 @@ def delete_house():
         return jsonify({"message": "House deleted successfully"}), 200
     else:
         return jsonify({"message": "Invalid request, no ID provided"}), 400
+    
+@main.route('/use_llm', methods=['GET','POST'])
+def use_llm():
+    #data = request.get_json()
+    
+    
+    TEMPLATE = "Provide approximately 50 words on how you would comment on the condition of a hypothetical property (residential), and act as if it is real."
+    answer = conversation.predict(input=TEMPLATE)
+    print(answer)
+    return jsonify({"message": f"{answer}"}), 1000
 
+
+@main.route('/clear_houses', methods=['DELETE'])
+def clear_houses():
+    houses_ref = db.collection('houses')
+    docs = houses_ref.stream()
+
+    for doc in docs:
+        doc.reference.delete()
+
+    return jsonify({'message': 'Houses collection cleared'}), 200
+
+    
 # @main.route('/predict', methods=['POST'])
 # def predict():
 #     # Assuming you're receiving the file path and label name as JSON in the POST request
