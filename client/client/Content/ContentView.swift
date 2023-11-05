@@ -17,8 +17,6 @@ struct GraphView: View {
     }
 }
 
-import SwiftUI
-
 struct HouseIconView: View {
     var body: some View {
         ZStack {
@@ -48,19 +46,18 @@ struct Triangle: Shape {
     }
 }
 
-// Usage in HomeCardView
 struct HomeCardView: View {
-    var homeNumber: Int
-
+    var property: Property
+    
     var body: some View {
         HStack {
             HouseIconView()
                 .frame(width: 50, height: 50)
             VStack(alignment: .leading) {
-                Text("Home \(homeNumber)")
+                Text("Home \(property.address)")
                     .font(.headline)
                     .foregroundColor(Color.black)
-                Text("Details for Home \(homeNumber)")
+                Text("Details for Home \(property.squareFootage) sq ft")
                     .font(.subheadline)
                     .foregroundColor(Color.black)
             }
@@ -71,85 +68,17 @@ struct HomeCardView: View {
 }
 
 struct HomeDetailsView: View {
-    var homeNumber: Int
-
+    var property: Property
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Home \(homeNumber) Details")
+            Text("Home \(property.address) Details")
                 .font(.headline)
             GraphView()
         }
         .padding()
-        .navigationTitle("Details for Home \(homeNumber)")
+        .navigationTitle("Details for Home \(property.address)")
         .navigationBarBackButtonHidden(true)
-    }
-}
-
-struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-    @State private var homeCount: Int = 0
-    @State private var showingCameraView = false
-
-    @StateObject var coordinator = Coordinator()
-
-    var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(0..<homeCount, id: \.self) { count in
-                    NavigationLink(destination: HomeDetailsView(homeNumber: count + 1)) {
-                        HomeCardView(homeNumber: count + 1)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .navigationTitle("RenoVisionAI")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-            }
-            .overlay(
-                VStack {
-                    Spacer()
-                    Button(action: {
-                        addItem()
-                        showingCameraView = true
-                    }) {
-                        Text("Scan New Property")
-                            .frame(minWidth: 0, maxWidth: .infinity)
-                            .frame(height: 50)
-                            .foregroundColor(.white)
-                            .background(Color(red: 4 / 255, green: 60 / 255, blue: 128 / 255))
-                            .cornerRadius(10)
-                    }
-                    .padding()
-                }
-            )
-            .sheet(isPresented: $showingCameraView) {
-                ARDisplayView(coordinator: coordinator, isPresenting: $showingCameraView)
-            }
-        } detail: {
-            if homeCount > 0 {
-                HomeDetailsView(homeNumber: homeCount)
-            } else {
-                Text("Select a home")
-            }
-        }
-        .background(Color(red: 250 / 255, green: 225 / 255, blue: 220 / 255))
-        .edgesIgnoringSafeArea(.all)
-    }
-
-    private func addItem() {
-        withAnimation {
-            homeCount += 1
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            homeCount -= offsets.count
-        }
     }
 }
 
@@ -185,7 +114,6 @@ struct ARDisplayView: View {
     }
 }
 
-
 struct MetalView: UIViewRepresentable {
     @ObservedObject var coordinator: Coordinator
     
@@ -198,4 +126,116 @@ struct MetalView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: MTKView, context: Context) {}
+}
+
+struct ContentView: View {
+    @Environment(\.modelContext) private var modelContext
+    @Query private var items: [Item]
+    @State private var homeCount: Int = 0
+    @State private var showingCameraView = false
+    @State private var showingPropertyInputView = false
+    @StateObject private var firestoreService = FirestoreService()
+    @StateObject var coordinator = Coordinator()
+
+    @State private var properties: [Property] = []
+
+    var body: some View {
+        NavigationSplitView {
+            List {
+                ForEach(properties, id: \.id) { property in
+                    NavigationLink(destination: HomeDetailsView(property: property)) {
+                        HomeCardView(property: property)
+                    }
+                }
+                .onDelete(perform: deleteProperty)
+            }
+            .navigationTitle("RenoVisionAI")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showingPropertyInputView.toggle()
+                    }) {
+                        Label("Add Property", systemImage: "plus")
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    EditButton()
+                }
+            }
+            .overlay(
+                VStack {
+                    Spacer()
+                    Button(action: {
+                        addItem()
+                        showingCameraView.toggle()
+                    }) {
+                        Text("Scan New Property")
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                            .frame(height: 50)
+                            .foregroundColor(.white)
+                            .background(Color(red: 4 / 255, green: 60 / 255, blue: 128 / 255))
+                            .cornerRadius(10)
+                    }
+                    .padding()
+                }
+            )
+            .sheet(isPresented: $showingPropertyInputView) {
+                PropertyInputView(isPresentingCamera: $showingCameraView)
+            }
+            .sheet(isPresented: $showingCameraView) {
+                ARDisplayView(coordinator: coordinator, isPresenting: $showingCameraView)
+            }
+        } detail: {
+            if !properties.isEmpty {
+                HomeDetailsView(property: properties.first!)
+            } else {
+                Text("Select a home")
+            }
+        }
+        .background(Color(red: 250 / 255, green: 225 / 255, blue: 220 / 255))
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            fetchProperties()
+        }
+    }
+
+    private func fetchProperties() {
+        firestoreService.fetchProperties { properties, error in
+            if let properties = properties {
+                self.properties = properties
+            } else if let error = error {
+                print(error.localizedDescription)
+            }
+        }
+    }
+
+    private func addProperty(address: String, squareFootage: Int) {
+        firestoreService.addProperty(address: address, squareFootage: squareFootage) { success, error in
+            if success {
+                fetchProperties()
+            } else if let error = error {
+                print(error.localizedDescription)
+            }
+        }
+    }
+
+    private func deleteProperty(at offsets: IndexSet) {
+        for index in offsets {
+            let property = properties[index]
+            firestoreService.deleteProperty(property.id) { success, error in
+                if success {
+                    properties.remove(at: index)
+                } else if let error = error {
+                    print(error.localizedDescription)
+                }
+            }
+        }
+    }
+
+    private func addItem() {
+        withAnimation {
+            homeCount += 1
+            showingPropertyInputView = true
+        }
+    }
 }

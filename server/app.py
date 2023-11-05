@@ -5,7 +5,7 @@ from google.cloud import storage
 from google.cloud import firestore
 # from ml_model import get_dataset
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:/Users/vishn/Desktop/FlaskGoogleBackend/glossy-fastness-404223-4f353d9f4ab3.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'glossy-fastness-404223-4f353d9f4ab3.json'
 os.environ["GOOGLE_CLOUD_PROJECT"]="glossy-fastness-404223"
 storage_client = storage.Client()
 db = firestore.Client()

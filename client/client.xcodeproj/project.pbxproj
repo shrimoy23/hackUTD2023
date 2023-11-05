@@ -38,6 +38,8 @@
 		AC2511CF2AF75931001374E9 /* MTLLayeredBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511CE2AF75931001374E9 /* MTLLayeredBuffer.swift */; };
 		AC2511D12AF75936001374E9 /* DebuggingUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2511D02AF75936001374E9 /* DebuggingUtilities.swift */; };
 		AC2511D42AF75A1D001374E9 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC2511D32AF75A1D001374E9 /* DeviceKit */; };
+		AC3FD3392AF783B300090F7C /* PropertyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3FD3382AF783B300090F7C /* PropertyInputView.swift */; };
+		AC3FD33B2AF783DF00090F7C /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3FD33A2AF783DF00090F7C /* FirestoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		AC2511CC2AF7592A001374E9 /* MetalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalExtensions.swift; sourceTree = "<group>"; };
 		AC2511CE2AF75931001374E9 /* MTLLayeredBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLLayeredBuffer.swift; sourceTree = "<group>"; };
 		AC2511D02AF75936001374E9 /* DebuggingUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingUtilities.swift; sourceTree = "<group>"; };
+		AC3FD3382AF783B300090F7C /* PropertyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyInputView.swift; sourceTree = "<group>"; };
+		AC3FD33A2AF783DF00090F7C /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				AC2511842AF74E25001374E9 /* ContentView.swift */,
 				AC2511932AF75035001374E9 /* LoginView.swift */,
 				AC2511952AF7504B001374E9 /* Item.swift */,
+				AC3FD3382AF783B300090F7C /* PropertyInputView.swift */,
+				AC3FD33A2AF783DF00090F7C /* FirestoreService.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -290,9 +296,11 @@
 				AC2511832AF74E25001374E9 /* clientApp.swift in Sources */,
 				AC2511A42AF754A6001374E9 /* Color.metal in Sources */,
 				AC2511B12AF75851001374E9 /* CameraMeasurements.swift in Sources */,
+				AC3FD33B2AF783DF00090F7C /* FirestoreService.swift in Sources */,
 				AC2511A92AF75728001374E9 /* Coordinator.swift in Sources */,
 				AC2511B72AF75864001374E9 /* UserSettings.swift in Sources */,
 				AC2511CB2AF75922001374E9 /* simdExtensions.swift in Sources */,
+				AC3FD3392AF783B300090F7C /* PropertyInputView.swift in Sources */,
 				AC2511AD2AF7578A001374E9 /* ActivityViewController.swift in Sources */,
 				AC2511CD2AF7592A001374E9 /* MetalExtensions.swift in Sources */,
 			);
@@ -427,7 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"client/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 64PFMJT7CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"client/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 64PFMJT7CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
