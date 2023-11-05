@@ -1,7 +1,7 @@
 # Server Environment
 server/glossy-fastness-404223-4f353d9f4ab3.json
 
-/server/apikey.py
+server/apikey.py
  
 # Miscellaneous
 *.class
