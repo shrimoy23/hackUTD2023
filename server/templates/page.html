@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Add House</h2>
+
+<button onclick="addHouse()">Add House</button>
+
+<script>
+function addHouse() {
+  var data = { square_foot: "911", address: "Twin Towers 2001" };  // replace with your actual data
+
+  fetch('http://localhost:5000/add_house', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log('Success:', data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
+}
+</script>
+
+</body>
+</html>

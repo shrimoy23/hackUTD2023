@@ -1,0 +1,1001 @@
+property_type (commercial/residential),"location (lat, long)",holes_cracks (1-5),"cosmetic_dmg_level (1-5, 5 being worst)","wall_type (wood, metal, brick)","roof_type (tile, shingle, solar_panel)","lawn_type (none, small, large)",window_count (1-20),"interior_quality (poor, fair, good, excellent)",trending_style (yes/no),RATING
+commercial,"25.47067, 73.91314",0,2,brick,tile,none,20,excellent,yes,9
+residential,"92,85",1,0,brick,tile,large,8,good,yes,8
+commercial,"0,0",5,5,metal,solar panel,none,4,poor,no,3
+residential,"32,49",2,4,wood,shingle,small,0,fair,yes,2
+commercial,"-28.97939, -168.70745",5,2,metal,solar panel,none,11,fair,no,4.6
+residential,"-80.45234, -142.42392",5,1,wood,shingle,none,16,fair,yes,4.9
+commercial,"1.92410, 90.56034",4,5,wood,shingle,none,9,poor,yes,3.4
+residential,"60.53627, -3.98546",2,1,metal,solar panel,small,13,excellent,yes,7.8
+commercial,"-73.69983, -144.06684",3,4,metal,tile,small,20,poor,no,4.1
+residential,"77.82082, -52.58932",1,1,brick,shingle,none,6,fair,yes,5.7
+residential,"-83.26750, -163.86303",2,4,metal,shingle,large,15,fair,yes,4.7
+residential,"-46.12858, -168.35231",5,3,metal,tile,small,7,good,no,3
+commercial,"78.24513, 177.39346",1,4,wood,shingle,none,20,poor,yes,5.2
+residential,"-61.91644, -23.14189",2,1,wood,tile,small,20,fair,yes,5
+commercial,"-15.66163, 95.92833",3,5,brick,tile,large,13,poor,yes,5.8
+commercial,"-41.17470, 77.90154",2,1,wood,shingle,none,7,fair,yes,5.1
+residential,"2.31542, -107.44037",3,4,metal,tile,none,16,fair,yes,4
+residential,"-10.66012, -25.37885",1,1,wood,solar panel,none,9,fair,yes,6.3
+commercial,"-60.89664, -58.35891",5,4,metal,tile,large,10,good,yes,6.2
+commercial,"-18.46231, 47.48681",4,1,metal,solar panel,small,9,poor,yes,3.5
+commercial,"64.65533, -104.77284",1,4,metal,tile,small,15,fair,yes,3.8
+commercial,"-87.85907, 22.69023",2,1,metal,shingle,none,13,good,yes,5.6
+commercial,"-4.70071, -78.90080",2,3,brick,shingle,none,12,excellent,no,7.5
+commercial,"74.19036, 84.77111",2,4,metal,tile,none,5,fair,no,3.9
+residential,"51.45811, -74.90641",4,1,metal,shingle,large,10,good,no,6.5
+commercial,"-69.11673, 33.24302",5,1,brick,solar panel,large,14,good,yes,9.1
+residential,"57.57135, -74.98572",1,1,metal,shingle,none,2,excellent,yes,5.6
+residential,"68.68403, -20.79010",2,1,metal,shingle,large,17,fair,yes,7.7
+residential,"77.06453, 28.02617",5,4,brick,solar panel,large,15,excellent,yes,8.2
+commercial,"-86.19932, -50.24911",2,4,wood,tile,large,1,fair,yes,4.2
+commercial,"76.17947, -126.50185",2,4,wood,solar panel,none,13,poor,no,4.2
+commercial,"-28.15493, -118.51899",2,4,wood,solar panel,none,11,good,yes,5.5
+commercial,"19.12300, -179.41340",1,4,brick,solar panel,none,12,poor,yes,6.7
+residential,"-84.84355, -165.25739",1,2,brick,solar panel,small,13,poor,no,7.4
+residential,"-31.16475, -29.21435",2,4,metal,shingle,small,1,poor,no,2.1
+commercial,"-46.23900, 28.26829",3,2,brick,tile,small,14,poor,yes,4.2
+residential,"74.86688, 16.31373",5,1,metal,shingle,small,19,excellent,yes,9.7
+residential,"-67.31599, 117.70464",1,4,metal,solar panel,small,16,good,no,7.6
+commercial,"-30.77925, 65.84744",4,4,brick,shingle,large,15,fair,no,8.8
+commercial,"35.51029, 146.35903",4,4,metal,shingle,large,5,excellent,yes,4.5
+commercial,"34.99203, 21.14940",4,2,metal,shingle,small,8,poor,no,3.7
+residential,"-24.08555, 77.55065",3,5,metal,tile,large,5,poor,yes,3.1
+commercial,"-21.39930, -60.29058",2,4,metal,tile,large,3,excellent,yes,7.7
+residential,"4.21712, -0.95298",5,4,metal,solar panel,small,4,good,no,3.6
+residential,"-58.93319, 89.40059",1,2,wood,tile,none,8,fair,no,2.9
+commercial,"21.52312, -100.41090",1,1,metal,solar panel,large,1,good,no,5.8
+commercial,"57.49953, 45.93601",5,5,brick,tile,none,6,good,no,6.3
+commercial,"-75.99388, 89.87034",3,5,metal,solar panel,none,20,excellent,no,7
+residential,"-87.38438, 119.99369",4,1,metal,tile,none,2,excellent,yes,5
+commercial,"-37.29171, -154.39007",3,1,brick,solar panel,large,2,good,yes,6.2
+commercial,"-89.00799, -68.71109",5,5,wood,shingle,small,16,excellent,no,5.7
+commercial,"84.20635, -93.16759",4,5,brick,shingle,large,7,poor,yes,5
+residential,"52.90153, -15.50446",4,5,brick,solar panel,none,12,good,yes,8.3
+commercial,"11.07806, -174.41968",3,1,wood,shingle,none,13,fair,no,5.5
+commercial,"52.50666, -112.51565",3,2,metal,tile,large,20,poor,no,4.2
+residential,"-45.76744, -166.26124",3,1,brick,tile,small,5,excellent,yes,7.6
+residential,"-67.04223, 40.18472",4,3,metal,solar panel,small,13,good,no,4.8
+residential,"-39.85575, -174.16330",5,4,metal,solar panel,small,10,good,no,5.9
+residential,"8.69813, 73.65224",3,4,brick,shingle,large,1,fair,no,4.8
+residential,"-34.96085, 131.08754",5,1,metal,shingle,none,13,good,no,4.9
+commercial,"29.23554, 171.08874",3,1,brick,shingle,large,7,good,no,6.9
+commercial,"-81.94279, 79.49197",2,2,brick,tile,small,16,good,no,7.5
+residential,"66.21847, 140.38941",2,2,wood,solar panel,large,10,good,yes,5.4
+residential,"86.68787, 160.59334",3,2,wood,shingle,small,13,poor,yes,7.8
+commercial,"60.59444, 43.55547",3,1,wood,shingle,none,13,excellent,yes,7.6
+commercial,"-39.05725, -112.80135",4,1,metal,solar panel,none,3,excellent,no,5.9
+commercial,"30.25704, 68.61714",1,1,brick,solar panel,small,4,fair,yes,6
+residential,"-82.11306, 62.04233",3,2,brick,solar panel,large,10,fair,yes,8.1
+commercial,"-62.34917, -136.79844",4,5,brick,solar panel,small,14,fair,no,8.8
+residential,"8.89530, -137.42033",2,3,brick,shingle,small,20,excellent,no,8.7
+commercial,"-49.49349, 112.86385",3,1,metal,solar panel,none,10,good,no,4.6
+residential,"58.83329, -155.76876",4,1,metal,shingle,none,8,fair,no,3.7
+commercial,"46.39744, -157.61386",3,4,wood,tile,small,6,fair,no,3.3
+commercial,"13.77615, 55.27305",1,5,brick,solar panel,none,18,fair,no,8
+residential,"-54.11977, -141.94710",4,4,brick,shingle,none,16,poor,yes,5
+commercial,"-77.20388, 58.29695",4,2,wood,shingle,none,10,fair,no,7.7
+commercial,"-28.19670, 105.74894",1,2,metal,shingle,large,6,good,no,5.2
+commercial,"-84.84798, -78.04866",5,4,wood,solar panel,none,12,fair,yes,4
+commercial,"62.43165, -45.43666",1,1,brick,tile,large,1,fair,no,6.3
+commercial,"-40.41647, 159.31912",1,5,metal,shingle,none,8,excellent,yes,5.5
+residential,"-52.45457, 65.81516",1,3,wood,solar panel,large,6,fair,yes,4.6
+commercial,"-66.27329, 152.46684",5,4,brick,solar panel,small,9,excellent,no,6.2
+residential,"-61.27770, 173.39580",2,5,brick,solar panel,large,11,fair,yes,7.1
+residential,"-52.20177, -66.33593",1,2,brick,shingle,none,4,fair,no,6.2
+residential,"-83.74180, 163.52147",5,5,wood,solar panel,large,3,excellent,no,5.2
+commercial,"72.32520, -113.10974",3,5,wood,shingle,none,2,excellent,yes,4
+residential,"-51.29528, 163.67690",3,4,brick,solar panel,large,3,poor,no,5.9
+residential,"20.76036, 110.97361",2,3,brick,solar panel,none,9,excellent,yes,10
+commercial,"-45.17005, 136.80103",1,4,wood,solar panel,none,1,poor,yes,2.8
+commercial,"-85.07897, 173.08079",2,1,wood,tile,none,9,fair,no,5.2
+residential,"79.44527, 37.76766",3,2,wood,tile,small,12,good,no,5.8
+residential,"-12.66561, -162.40004",1,5,wood,solar panel,large,9,poor,no,4.3
+residential,"62.52886, 158.24868",5,4,brick,tile,large,7,excellent,no,6.2
+commercial,"-37.21024, -79.14334",3,1,brick,tile,none,1,excellent,no,6.7
+commercial,"11.72596, -121.12486",1,3,metal,tile,small,14,excellent,yes,7.3
+residential,"-33.99253, 61.43962",5,4,metal,tile,none,3,good,yes,3.8
+residential,"44.82965, 112.74676",3,5,wood,solar panel,none,2,poor,no,2.9
+commercial,"-65.03390, -23.01999",2,1,metal,tile,none,19,excellent,no,7.7
+commercial,"51.10803, 70.37270",5,3,metal,tile,large,11,poor,no,3.7
+residential,"7.69529, -161.03923",2,1,metal,solar panel,small,5,good,yes,5.7
+commercial,"51.45397, 131.31524",4,5,wood,solar panel,large,20,good,yes,6.5
+commercial,"36.90783, -127.41388",2,5,wood,solar panel,none,9,fair,no,3.9
+residential,"1.86376, -136.25309",4,3,wood,tile,large,4,fair,no,5.7
+commercial,"61.03570, 49.75488",2,1,wood,solar panel,small,5,fair,yes,7
+commercial,"-13.69981, -66.23994",4,4,metal,solar panel,none,10,excellent,yes,3.7
+commercial,"36.32977, -132.72596",5,3,wood,solar panel,large,10,excellent,no,8.3
+residential,"-15.09676, 66.21299",2,2,metal,shingle,small,9,poor,yes,4.3
+residential,"35.33070, 103.15401",1,2,metal,solar panel,small,4,good,yes,4.1
+commercial,"89.11590, 116.39847",3,3,wood,solar panel,none,5,poor,yes,3.2
+residential,"-52.12379, -86.79190",5,3,wood,solar panel,small,4,fair,yes,5
+commercial,"-56.60944, -129.81164",2,4,brick,tile,large,10,poor,no,5.2
+commercial,"72.05941, 102.03442",3,5,wood,tile,none,4,fair,yes,3.2
+residential,"25.38513, -83.66549",5,3,metal,solar panel,large,19,fair,no,6.9
+residential,"66.12353, 89.55318",4,3,wood,solar panel,none,13,excellent,yes,7.1
+commercial,"-71.14122, -158.90471",4,5,brick,tile,small,2,fair,no,6.7
+residential,"-10.18470, 37.60669",1,5,brick,shingle,small,17,poor,no,5.8
+commercial,"-33.08677, -64.39941",5,2,brick,shingle,small,19,excellent,no,7.7
+commercial,"-67.15137, -93.30988",4,2,metal,shingle,large,3,poor,no,4.6
+residential,"31.52272, 2.74146",1,1,wood,tile,none,11,fair,no,3.4
+residential,"-75.56690, -56.93747",3,1,brick,shingle,small,18,good,no,6.8
+residential,"-86.81350, -63.02954",2,3,wood,solar panel,none,16,fair,yes,5
+commercial,"89.13575, -148.77188",4,5,brick,shingle,small,14,poor,yes,6.5
+commercial,"38.91406, -159.42338",4,3,metal,solar panel,none,2,excellent,yes,5.2
+commercial,"78.07497, 174.56294",3,5,wood,solar panel,large,20,good,no,7.2
+residential,"47.12719, 114.21019",2,3,metal,solar panel,small,18,poor,no,4.2
+residential,"-62.76641, -16.34901",1,5,brick,tile,large,17,good,no,9.8
+residential,"-63.54151, -74.29934",5,3,metal,tile,none,18,excellent,no,5.8
+residential,"10.76190, -57.05830",3,3,wood,tile,large,20,fair,no,6.9
+residential,"-35.31359, -107.98383",1,3,wood,shingle,small,7,poor,yes,4.8
+commercial,"-54.36243, -164.53378",5,4,brick,tile,none,18,good,yes,5
+commercial,"84.68704, -108.34335",2,4,metal,solar panel,none,3,good,no,3.1
+commercial,"68.22272, -44.68467",4,1,brick,shingle,small,10,poor,yes,5.8
+commercial,"9.06480, 69.10517",3,3,brick,solar panel,small,16,fair,yes,6.6
+commercial,"-49.08870, -72.17671",4,3,wood,solar panel,large,4,fair,no,5.9
+residential,"-16.86632, -154.63657",1,4,metal,solar panel,none,13,good,yes,4.8
+residential,"34.25592, 53.03802",3,1,metal,solar panel,small,15,poor,yes,5.6
+commercial,"64.02008, 178.84760",1,1,metal,solar panel,none,6,fair,no,3.3
+commercial,"80.97138, -141.03512",3,4,brick,shingle,large,19,excellent,yes,9.7
+residential,"-42.61049, 122.44840",2,4,wood,shingle,large,15,fair,no,6.7
+residential,"-11.56608, 119.72485",5,5,wood,shingle,small,11,fair,yes,4.6
+commercial,"-19.90042, 70.60765",3,2,brick,solar panel,large,3,poor,yes,6.6
+commercial,"-18.94482, -90.39684",1,3,metal,solar panel,large,7,fair,no,5.1
+residential,"89.91448, -74.46236",3,2,metal,solar panel,none,4,good,yes,4.5
+commercial,"36.45665, -19.53235",2,4,brick,tile,none,20,excellent,yes,10
+commercial,"83.34548, -170.32297",5,5,metal,solar panel,large,3,excellent,no,5.2
+commercial,"-75.05109, -140.59231",1,3,brick,solar panel,none,19,poor,yes,6.3
+residential,"-50.51362, 46.14925",2,2,brick,tile,large,2,poor,yes,4.1
+residential,"27.75406, -118.25583",5,2,brick,shingle,large,4,fair,yes,6.7
+residential,"29.60249, -150.33326",2,4,wood,shingle,large,20,excellent,no,8.3
+residential,"-77.34780, 8.08416",3,2,brick,solar panel,large,11,good,yes,8.5
+commercial,"-36.10669, -2.69654",2,2,metal,shingle,none,12,fair,no,4.9
+residential,"56.27651, -179.29553",2,3,wood,tile,none,7,excellent,no,5.4
+residential,"-20.81138, -113.43550",3,2,wood,solar panel,none,7,good,no,6.1
+commercial,"7.21526, 145.90930",2,2,brick,shingle,large,18,excellent,no,9
+commercial,"-65.41589, -27.78581",2,1,wood,solar panel,large,5,good,no,7.3
+commercial,"-13.72814, -149.80194",3,2,metal,solar panel,none,12,fair,yes,4.1
+residential,"-74.37939, 106.91719",1,1,brick,tile,none,11,fair,yes,6.3
+residential,"-22.32054, -107.80398",5,4,brick,shingle,none,18,fair,yes,5.2
+commercial,"29.53621, -157.48358",5,3,wood,shingle,large,7,excellent,no,6.1
+commercial,"-31.16082, 109.34068",4,1,metal,shingle,none,3,good,yes,4.5
+residential,"-15.15635, -83.49054",3,5,metal,shingle,none,12,excellent,no,4.6
+commercial,"11.65785, 175.06198",3,5,brick,solar panel,large,16,excellent,yes,9.6
+residential,"54.60046, 2.96706",3,2,wood,shingle,none,7,poor,no,2.9
+commercial,"-33.52213, 49.14657",2,4,wood,solar panel,none,7,excellent,no,6.1
+residential,"-89.92242, -3.82499",4,3,wood,shingle,none,20,good,no,9.4
+residential,"-22.84035, 58.74725",5,4,metal,solar panel,small,10,excellent,yes,5.8
+residential,"-11.53716, 25.33502",4,5,wood,solar panel,small,14,good,no,7.1
+commercial,"-88.04635, -82.68648",1,5,metal,tile,large,4,fair,yes,4.4
+residential,"27.23163, 82.49350",2,1,metal,tile,small,20,poor,yes,3.8
+commercial,"-67.42072, 147.68249",3,1,brick,solar panel,small,17,poor,yes,6.1
+residential,"-78.79992, 57.36282",2,1,metal,shingle,small,9,fair,no,3.7
+residential,"-40.47157, 46.99770",2,5,wood,solar panel,small,11,fair,no,6.9
+commercial,"-33.55179, -170.89174",4,3,metal,tile,small,3,excellent,yes,5.3
+residential,"-53.38261, -6.40736",4,1,metal,shingle,small,9,poor,yes,4.3
+commercial,"-4.69274, -24.79053",1,1,brick,shingle,none,9,good,yes,6.9
+residential,"-36.69721, 80.34201",3,4,brick,tile,large,13,good,yes,8.9
+commercial,"41.81130, 165.01164",2,3,brick,solar panel,large,5,excellent,no,9.3
+residential,"-36.28191, 38.28685",1,3,brick,tile,small,9,excellent,yes,9.6
+commercial,"-75.29121, 89.43713",3,4,wood,shingle,small,9,poor,no,3.8
+residential,"-50.04463, -56.46075",1,4,metal,shingle,small,18,excellent,no,7.4
+residential,"-2.13454, 36.57325",2,4,metal,shingle,small,9,excellent,no,6.5
+residential,"-65.92650, -118.75345",3,4,wood,tile,none,12,good,no,5.9
+residential,"-1.58181, -129.10434",3,5,brick,shingle,none,12,excellent,yes,6.1
+residential,"47.92680, 28.87585",5,2,brick,shingle,large,20,poor,yes,7.1
+commercial,"-84.15617, 162.38103",4,3,brick,solar panel,none,5,excellent,yes,8.3
+residential,"-22.53246, -65.56434",4,1,brick,shingle,small,3,fair,yes,4.8
+commercial,"-35.26389, -158.73203",3,1,metal,shingle,large,17,poor,yes,7.5
+commercial,"-81.54087, 58.76882",3,5,metal,solar panel,large,9,good,no,8.1
+commercial,"-13.03885, 78.16463",1,3,metal,solar panel,large,15,excellent,yes,7.1
+residential,"-24.65646, -16.21563",2,3,metal,tile,none,12,fair,yes,3.8
+commercial,"-8.13349, -168.10103",5,5,brick,shingle,none,3,excellent,no,6
+commercial,"-4.17973, -88.38534",4,1,brick,tile,small,20,fair,no,7
+residential,"-41.21359, -68.84843",5,4,brick,tile,none,7,good,no,3.9
+residential,"46.49881, -178.31623",4,1,metal,solar panel,small,7,poor,no,3.3
+residential,"-36.57477, -31.91244",1,1,wood,shingle,none,7,good,yes,5.5
+commercial,"22.68793, 10.28869",5,5,metal,shingle,large,7,fair,yes,4.5
+commercial,"78.42052, -67.05357",5,1,brick,shingle,large,8,fair,no,5.9
+residential,"-78.23328, 159.03791",3,1,wood,tile,small,12,good,yes,5.8
+residential,"4.71328, -52.34154",3,3,wood,shingle,large,6,fair,no,6.4
+commercial,"29.36813, 37.12996",2,1,metal,tile,large,12,excellent,yes,9.1
+residential,"66.87201, 64.01208",5,1,wood,solar panel,small,7,poor,yes,4.7
+residential,"-17.43015, -69.25541",4,2,metal,shingle,large,13,poor,yes,3.8
+residential,"28.01415, 16.39509",2,2,wood,tile,small,13,excellent,yes,6.7
+residential,"-58.75609, 157.97977",1,5,metal,solar panel,small,9,excellent,no,4.9
+residential,"-65.88472, -178.40986",5,2,brick,tile,large,1,good,no,5.5
+residential,"16.60101, 151.78380",3,1,wood,solar panel,none,8,fair,no,4.1
+residential,"-17.40411, 20.16497",2,1,brick,solar panel,large,3,poor,no,6.3
+residential,"6.16046, -134.67667",1,1,wood,tile,small,15,poor,yes,5.7
+commercial,"-48.78580, 31.83962",3,5,brick,solar panel,large,3,fair,yes,8.4
+residential,"12.19953, 174.32616",1,4,wood,tile,small,2,good,no,7
+commercial,"83.08322, 10.54826",4,1,metal,solar panel,large,20,poor,yes,5.3
+residential,"-8.48109, 132.84988",5,4,metal,solar panel,large,9,poor,yes,5.3
+commercial,"-31.85191, -28.95369",1,2,wood,tile,large,3,poor,no,4.1
+residential,"-33.98702, 70.10283",3,1,wood,shingle,large,17,poor,no,5.3
+residential,"-15.16361, -61.86560",5,5,wood,solar panel,small,7,fair,no,4.1
+residential,"39.27235, -30.78569",5,4,brick,solar panel,large,19,poor,yes,8.2
+residential,"46.61606, -149.05405",5,3,brick,solar panel,none,15,fair,no,5.6
+residential,"-87.39559, -86.22109",4,5,metal,tile,none,6,poor,no,1.2
+commercial,"32.71642, -160.54733",1,2,wood,solar panel,none,14,excellent,yes,7.6
+commercial,"-57.80709, -85.70884",2,1,brick,tile,large,2,fair,yes,4.7
+residential,"-58.30265, 165.79739",1,1,brick,solar panel,none,2,good,yes,4.4
+commercial,"-88.07688, -89.67029",2,1,metal,shingle,small,10,good,no,4.8
+residential,"72.14212, -71.13327",5,3,wood,shingle,large,10,excellent,yes,8.1
+commercial,"8.27745, 60.96313",1,1,metal,shingle,none,6,excellent,no,3.7
+commercial,"-55.28381, 19.91288",4,4,metal,solar panel,small,3,excellent,yes,5.6
+residential,"23.25342, -102.64877",4,1,wood,tile,large,9,poor,no,3.9
+commercial,"88.33713, 154.39004",3,5,metal,solar panel,small,19,poor,yes,4.3
+commercial,"-78.21988, -103.01865",5,4,brick,tile,small,7,poor,yes,7.3
+commercial,"-44.00320, 153.56506",3,2,metal,solar panel,none,12,fair,yes,5.3
+residential,"-72.24985, 43.40350",4,2,brick,solar panel,none,4,good,no,7.1
+commercial,"79.27332, 29.60581",2,2,metal,shingle,none,15,poor,yes,4
+commercial,"-51.07613, -141.78492",5,2,wood,tile,none,9,fair,yes,3.7
+commercial,"-11.19593, -8.13147",3,1,wood,solar panel,small,19,fair,yes,8.1
+residential,"63.18576, 68.67047",1,4,brick,solar panel,none,18,good,no,10
+commercial,"-44.91847, 100.67635",1,5,brick,shingle,large,20,excellent,no,10
+commercial,"16.18478, -138.20891",1,5,metal,solar panel,none,17,good,yes,5.6
+residential,"-36.33497, 46.17420",4,3,wood,tile,small,2,excellent,yes,4.8
+commercial,"43.61239, 64.89255",1,2,brick,solar panel,large,12,good,yes,6.6
+commercial,"22.30882, -38.73282",5,2,brick,shingle,small,7,excellent,no,7
+commercial,"-65.19993, -145.84334",3,2,wood,tile,large,17,excellent,no,8.9
+residential,"-30.16638, 11.92775",4,5,metal,tile,large,6,excellent,yes,5.9
+commercial,"-16.56214, 3.82343",1,5,metal,solar panel,none,9,good,no,5.2
+residential,"-78.16146, 71.45464",4,3,wood,tile,small,18,fair,yes,5.8
+residential,"-11.22331, 6.09893",2,3,wood,shingle,none,11,poor,no,3.4
+commercial,"45.26345, -101.55575",4,5,metal,tile,small,6,excellent,yes,3.7
+residential,"-84.11869, -51.83107",2,5,wood,solar panel,large,1,poor,no,4.1
+residential,"28.30673, -141.52827",1,3,brick,shingle,small,13,good,no,8.4
+commercial,"-10.02819, -27.57699",3,5,brick,tile,small,2,excellent,no,5.6
+commercial,"-33.69848, 172.45733",1,2,wood,solar panel,large,18,excellent,no,10
+residential,"49.32529, 144.58104",3,1,metal,solar panel,none,18,excellent,yes,8.3
+commercial,"87.81029, 32.99148",2,1,brick,solar panel,small,5,excellent,yes,8.1
+commercial,"78.01703, 149.08505",3,2,brick,shingle,large,6,excellent,yes,8.7
+residential,"-85.54470, 165.04111",2,5,metal,tile,small,1,poor,no,2.1
+commercial,"17.16548, -9.95121",2,4,brick,tile,large,2,poor,yes,5.6
+commercial,"5.29662, 71.23721",2,4,brick,tile,small,17,good,yes,7.6
+commercial,"72.60618, 99.02422",1,1,metal,shingle,none,6,fair,yes,4.3
+residential,"20.23599, 22.78193",1,3,brick,shingle,large,16,good,yes,10
+residential,"-25.75148, -64.58382",3,3,brick,shingle,small,19,good,yes,9.5
+residential,"83.50588, -145.95039",1,5,metal,solar panel,none,2,poor,yes,3.1
+commercial,"-68.58858, -108.44581",3,2,wood,tile,none,15,fair,yes,4.7
+residential,"28.21346, -61.32803",5,3,wood,shingle,large,4,good,no,5
+residential,"-53.05767, -96.96352",5,1,wood,shingle,large,6,good,no,6.3
+commercial,"4.03917, 176.88562",5,3,metal,tile,large,6,fair,no,4.3
+commercial,"35.93173, -78.93692",2,4,brick,solar panel,none,6,good,no,8
+commercial,"-76.56540, 57.56974",4,1,metal,tile,none,2,poor,no,1.6
+residential,"78.33906, -85.01318",1,3,wood,solar panel,small,8,fair,yes,7
+residential,"-55.74357, 76.21086",2,4,brick,shingle,none,10,fair,no,5.1
+commercial,"-2.96696, 34.07644",4,1,metal,solar panel,none,8,fair,yes,2.5
+commercial,"54.69690, -5.39506",4,5,metal,solar panel,none,14,good,yes,5.6
+residential,"-82.58764, 1.63228",5,2,metal,tile,small,10,fair,no,2.9
+residential,"61.48068, 14.30131",4,5,metal,tile,small,3,good,yes,3
+commercial,"-36.32769, -147.30451",3,3,brick,solar panel,small,9,fair,no,6
+commercial,"-59.74737, 61.06930",2,3,wood,tile,none,8,poor,yes,2.5
+residential,"14.39985, 133.23285",1,1,wood,solar panel,small,19,fair,yes,8.5
+commercial,"80.69388, -154.41728",1,3,wood,shingle,small,19,fair,yes,8.2
+residential,"74.13023, -88.43264",4,4,wood,shingle,large,9,fair,yes,9.8
+commercial,"-76.31900, 94.38177",1,4,wood,tile,none,18,poor,yes,4.4
+residential,"-21.56240, 167.22469",2,2,brick,shingle,small,5,poor,yes,5
+residential,"-48.03131, -60.40406",5,2,metal,solar panel,large,12,poor,yes,7.9
+residential,"34.64665, 134.28466",2,5,wood,tile,small,4,good,no,6
+commercial,"-47.26636, -64.84140",2,3,metal,solar panel,large,20,poor,no,5.8
+residential,"33.35333, 171.22796",5,5,brick,solar panel,small,14,excellent,no,6.9
+residential,"-49.00068, 43.74216",1,5,wood,tile,large,5,poor,no,3.8
+commercial,"34.94911, 130.77025",5,3,brick,solar panel,large,3,excellent,yes,8.8
+residential,"2.50296, -129.85453",2,5,wood,shingle,none,11,good,no,5.7
+residential,"-88.06660, -58.25424",1,3,metal,tile,small,12,poor,yes,3.1
+residential,"-72.62311, -13.63947",4,2,wood,solar panel,small,15,poor,yes,5.9
+residential,"-33.07084, -73.47253",5,2,metal,tile,none,6,excellent,no,3.8
+commercial,"28.12117, 103.15117",3,5,metal,shingle,small,15,fair,no,3.7
+residential,"24.93527, -122.52048",4,1,brick,shingle,small,2,excellent,yes,5.7
+commercial,"-55.89139, -110.91175",5,3,metal,tile,small,4,excellent,no,3.7
+commercial,"56.60250, 123.80741",4,4,metal,solar panel,none,13,poor,yes,3.2
+residential,"-23.22401, -49.40913",5,5,brick,shingle,small,10,excellent,no,10
+residential,"24.90989, 139.58067",5,4,brick,tile,none,5,poor,no,3.4
+residential,"-10.32414, 58.16688",3,3,wood,tile,large,10,fair,no,6.5
+commercial,"-23.94914, 78.95561",1,3,wood,solar panel,small,9,excellent,no,10
+commercial,"-25.10863, -70.35194",4,2,metal,solar panel,none,11,excellent,no,6.7
+residential,"82.42180, -27.81670",3,4,brick,solar panel,large,19,good,yes,9.6
+residential,"-87.33111, 20.86044",5,5,wood,solar panel,small,9,fair,no,5.9
+residential,"43.80815, -27.53796",1,4,brick,tile,small,16,good,no,9.5
+commercial,"8.62246, 30.82378",5,4,metal,solar panel,small,13,poor,no,4.4
+commercial,"54.52393, -108.11460",4,5,brick,shingle,small,20,poor,yes,4
+commercial,"3.11030, -36.50588",2,4,wood,tile,small,8,good,no,5.9
+commercial,"-50.35619, -132.41039",1,4,brick,solar panel,large,5,poor,yes,8.1
+residential,"-70.48424, -49.11157",4,4,wood,tile,none,15,excellent,yes,7.4
+commercial,"-66.57823, -39.37149",4,1,metal,shingle,large,20,fair,yes,4.8
+residential,"58.96812, 40.82787",3,3,metal,shingle,none,1,good,no,3.6
+commercial,"81.04194, -6.61873",2,1,wood,shingle,small,7,poor,yes,8.1
+commercial,"-10.60020, 134.17787",2,2,brick,tile,none,9,fair,yes,5.8
+commercial,"41.24950, -3.34196",3,3,brick,shingle,large,9,fair,yes,5.9
+residential,"-36.68220, -167.86915",4,1,metal,shingle,large,19,excellent,yes,9.1
+residential,"44.10375, -14.44372",4,4,brick,shingle,small,20,good,no,9.2
+commercial,"-50.35547, -31.85279",1,2,brick,solar panel,none,4,excellent,no,8.3
+residential,"76.00001, 153.59243",2,1,brick,solar panel,none,17,fair,no,6.9
+residential,"8.04756, 21.53844",2,5,brick,solar panel,none,18,fair,no,8.4
+residential,"7.53108, -58.56533",5,1,wood,solar panel,large,17,poor,no,6.6
+residential,"38.42296, 115.53287",1,1,brick,tile,small,1,good,no,6.8
+residential,"64.78016, 3.98971",1,4,metal,tile,none,3,fair,yes,2.6
+residential,"-45.65395, 109.14714",2,4,brick,tile,large,14,good,no,7.1
+commercial,"28.48088, -156.95597",3,1,metal,solar panel,none,18,poor,yes,5.6
+commercial,"78.49620, -105.14188",4,3,metal,shingle,none,11,fair,no,4.1
+residential,"15.32737, -59.67475",1,3,brick,solar panel,small,10,fair,yes,7.5
+commercial,"86.76219, -99.55044",5,2,wood,tile,large,4,poor,yes,3.8
+commercial,"-27.78891, -30.20383",4,5,wood,shingle,none,12,good,yes,8.1
+commercial,"49.99230, 125.30401",3,1,wood,tile,none,19,excellent,no,9.5
+residential,"54.22810, 171.50646",3,1,wood,solar panel,large,16,excellent,no,7.2
+commercial,"-15.43921, -94.51849",2,2,brick,tile,small,14,good,no,7.6
+commercial,"6.46552, -138.85471",4,3,metal,shingle,large,1,fair,no,3.6
+commercial,"76.53551, -158.02874",2,5,metal,tile,small,20,poor,no,6
+commercial,"-1.83270, -43.27557",2,4,metal,solar panel,small,18,fair,yes,6
+commercial,"-1.21256, 146.99393",5,1,brick,solar panel,small,1,good,yes,6.5
+commercial,"34.90448, 53.06079",2,2,brick,tile,small,1,good,yes,7.3
+residential,"77.14419, -79.72514",5,4,wood,shingle,none,12,good,no,5.8
+residential,"41.91361, -68.81984",5,1,metal,tile,large,13,poor,yes,4.6
+residential,"-35.44951, 126.77849",5,5,metal,shingle,small,17,excellent,no,7.2
+residential,"-80.39892, -97.21116",5,3,wood,solar panel,small,9,fair,yes,6.1
+residential,"-46.72068, -137.13236",4,5,wood,solar panel,none,14,fair,yes,6
+commercial,"-25.57028, 79.59855",2,4,wood,solar panel,large,8,fair,no,5.9
+commercial,"54.60272, -131.62911",1,5,wood,tile,large,9,poor,no,5.9
+commercial,"19.27040, -148.76109",1,2,metal,solar panel,small,17,excellent,no,8.4
+residential,"-11.53337, -174.15574",4,3,brick,shingle,large,5,excellent,no,7.7
+commercial,"-87.07463, -31.12860",2,4,wood,solar panel,small,14,excellent,yes,6.8
+residential,"7.96215, -93.04461",2,4,wood,tile,none,19,fair,yes,4.5
+commercial,"-43.24396, 117.62112",3,5,wood,tile,large,3,good,yes,4.3
+residential,"71.77758, -59.90092",5,1,wood,shingle,none,15,poor,no,4.4
+residential,"3.86808, 6.43648",4,5,brick,shingle,none,8,fair,yes,5.5
+residential,"-77.71737, -2.59808",3,5,metal,shingle,none,8,excellent,yes,3.9
+residential,"-79.82568, -66.62916",1,2,metal,tile,none,16,excellent,no,5.2
+commercial,"-68.50417, 139.10245",5,5,wood,solar panel,large,5,good,no,5.1
+residential,"-47.90267, -150.57628",1,3,metal,shingle,large,18,good,no,6.7
+commercial,"61.89385, 4.85946",5,5,wood,solar panel,large,13,excellent,yes,9.6
+commercial,"-43.94664, 105.36146",5,2,wood,shingle,none,15,good,yes,6.4
+residential,"-37.14024, -112.58539",5,3,brick,tile,small,6,excellent,yes,8.9
+commercial,"-26.68421, 162.09645",4,1,wood,solar panel,none,13,fair,no,6.5
+residential,"-86.95376, -47.58724",3,5,brick,tile,large,1,poor,yes,6.2
+residential,"-7.11548, 155.50870",2,4,brick,shingle,small,8,good,yes,7.1
+residential,"5.37960, -171.68418",1,1,metal,solar panel,small,9,excellent,no,4.8
+residential,"-74.98210, -101.28332",2,1,metal,shingle,none,15,excellent,yes,7.3
+residential,"73.33833, 98.74715",2,1,wood,shingle,large,9,excellent,yes,7.8
+residential,"-29.00207, 174.66261",4,4,metal,solar panel,small,3,excellent,no,6.4
+residential,"46.67799, -46.02858",5,5,metal,shingle,small,18,good,yes,7.5
+commercial,"-22.30231, -108.26299",1,3,metal,solar panel,small,5,fair,yes,4.6
+commercial,"23.43736, 169.06062",2,3,wood,shingle,large,11,fair,yes,10
+commercial,"79.78933, 132.97550",1,2,metal,solar panel,none,11,good,no,5.2
+residential,"-31.32860, -49.19540",4,4,brick,solar panel,none,18,fair,yes,7.6
+residential,"-57.76313, 87.46962",4,2,metal,solar panel,none,9,good,yes,5.9
+commercial,"35.96443, -132.26664",4,4,wood,solar panel,large,12,poor,yes,5
+commercial,"-25.37626, 152.42855",2,1,wood,tile,small,8,poor,yes,4.4
+commercial,"-66.09570, 71.89531",2,2,brick,tile,large,12,good,yes,8.2
+residential,"65.65881, 168.21247",4,3,metal,solar panel,none,1,fair,yes,2.9
+residential,"-47.52958, -24.52810",3,2,brick,solar panel,large,10,fair,yes,6.7
+commercial,"-45.00009, 121.34159",4,2,metal,tile,small,6,fair,yes,2.4
+commercial,"-87.55642, 45.17113",5,4,wood,solar panel,large,4,excellent,yes,6.6
+residential,"-37.11958, 136.06125",5,3,metal,solar panel,none,16,fair,yes,4.8
+commercial,"52.07887, -25.69707",3,1,wood,tile,large,4,fair,no,5.1
+residential,"62.23784, -60.59621",4,4,wood,solar panel,large,20,excellent,yes,10
+residential,"-10.81649, 31.66873",3,3,brick,shingle,none,20,excellent,yes,8
+residential,"-10.47942, 104.11785",3,3,wood,tile,none,5,poor,no,1.9
+commercial,"89.90965, 5.01649",5,2,brick,shingle,none,4,excellent,no,7.2
+residential,"63.13224, 74.12251",2,1,brick,shingle,small,5,excellent,yes,8.1
+residential,"24.81743, -68.34283",1,4,brick,shingle,none,20,poor,no,6.3
+commercial,"20.86757, 108.90701",3,4,wood,solar panel,small,9,fair,no,4.1
+residential,"-65.56796, 54.38793",1,2,wood,tile,small,8,fair,yes,5
+residential,"-61.65670, -129.32132",1,3,wood,solar panel,small,10,poor,yes,4.7
+commercial,"61.38267, -75.63347",3,1,brick,solar panel,none,7,poor,yes,5.4
+residential,"-55.58557, 151.91542",5,2,wood,tile,none,8,poor,yes,2.4
+commercial,"-1.82611, 141.97312",5,3,metal,solar panel,large,18,fair,yes,5.7
+commercial,"28.12735, 113.84373",3,3,brick,shingle,large,12,fair,yes,10
+commercial,"-80.08204, -24.51136",3,1,wood,shingle,small,2,excellent,no,10
+residential,"-23.15929, 23.84434",3,5,wood,solar panel,small,15,excellent,no,7.9
+commercial,"69.93157, -68.89187",2,1,wood,shingle,large,4,good,no,5.1
+commercial,"-20.01268, -33.35838",3,5,brick,solar panel,large,20,excellent,yes,9.2
+commercial,"13.61351, 40.32938",5,2,metal,shingle,small,19,excellent,yes,8.4
+commercial,"48.17167, 10.70866",2,3,brick,tile,large,11,excellent,yes,6
+residential,"0.03126, -120.89653",3,1,metal,solar panel,small,16,excellent,no,6.5
+commercial,"77.78033, 84.58528",2,1,metal,solar panel,none,6,fair,yes,4.3
+commercial,"89.49659, -156.21086",2,1,wood,solar panel,small,6,excellent,yes,5.1
+residential,"-20.10360, -47.77826",5,3,brick,solar panel,none,15,good,no,7.7
+residential,"65.48615, -144.16355",3,4,metal,tile,none,1,excellent,no,4.2
+commercial,"24.52933, 15.76542",2,3,wood,tile,large,16,excellent,yes,7.2
+residential,"50.15403, -106.90045",3,2,metal,solar panel,large,16,good,yes,8.9
+commercial,"-23.54146, -150.13548",3,4,wood,shingle,small,20,poor,yes,6.1
+residential,"36.48228, 43.70851",1,5,brick,tile,none,4,poor,yes,2.5
+residential,"50.36688, 94.99907",1,5,wood,tile,none,16,good,no,6.8
+residential,"-82.17291, -53.79653",2,1,wood,solar panel,none,19,poor,no,5
+residential,"-10.43299, 9.39877",4,5,wood,tile,large,16,poor,no,4.9
+commercial,"43.66371, -39.54385",2,2,metal,shingle,none,5,poor,yes,3.3
+residential,"55.58718, -63.07746",2,2,brick,tile,small,15,fair,no,4.2
+commercial,"61.79131, -19.58046",4,4,wood,solar panel,small,20,good,no,7.3
+residential,"-39.65560, -162.01843",3,1,metal,tile,none,17,excellent,yes,6.2
+residential,"-67.79808, 119.29065",3,5,brick,solar panel,large,12,good,no,8.5
+residential,"83.42581, -25.71771",3,1,wood,shingle,small,19,excellent,no,10
+commercial,"18.87271, -22.14186",2,2,metal,solar panel,large,18,fair,yes,8.7
+commercial,"-0.93342, 71.38359",1,2,metal,solar panel,small,3,good,yes,5.4
+residential,"21.70250, 128.45531",1,3,brick,tile,small,17,good,yes,5.2
+commercial,"-17.39701, 13.64643",5,4,brick,tile,large,6,poor,no,3.2
+commercial,"-30.29988, 14.48972",4,2,metal,solar panel,none,17,fair,no,4.3
+residential,"37.86869, -62.33879",3,5,brick,tile,large,10,fair,no,5
+commercial,"-26.46867, 119.14246",2,1,metal,tile,none,9,good,yes,4
+commercial,"8.41964, -101.96404",5,2,metal,shingle,none,1,good,yes,3.5
+residential,"-59.79937, -32.10212",3,5,metal,solar panel,small,4,poor,no,3.1
+commercial,"8.87687, 172.37124",5,4,wood,shingle,none,6,good,no,4.4
+residential,"-79.33140, 121.72528",5,2,brick,solar panel,none,8,good,no,4.7
+commercial,"-81.40242, 155.37606",1,4,metal,shingle,large,6,excellent,no,6.2
+commercial,"-51.58507, 91.82505",3,2,brick,tile,large,17,poor,no,10
+residential,"16.63747, 136.67281",5,2,brick,tile,large,15,poor,no,5.8
+commercial,"12.32093, -0.10074",5,3,wood,tile,large,9,excellent,no,5.8
+residential,"-40.30628, 8.00681",1,5,metal,tile,large,7,fair,yes,4.6
+commercial,"-59.07768, 178.10303",4,4,metal,tile,none,19,poor,no,3.4
+commercial,"-55.35313, -4.71786",3,5,brick,shingle,small,4,excellent,yes,6.3
+residential,"54.84143, 43.66593",1,2,brick,tile,small,7,excellent,no,6.7
+commercial,"-16.08052, -65.65247",5,5,brick,tile,large,15,excellent,no,7.8
+residential,"-28.77848, -120.13983",4,1,brick,tile,small,9,poor,yes,5.5
+commercial,"-70.74939, -100.01994",5,4,brick,shingle,small,8,poor,yes,5
+residential,"-34.16423, -104.32662",3,5,brick,tile,small,1,fair,yes,4.1
+residential,"-67.69885, 74.98875",4,5,metal,shingle,small,13,fair,yes,4.2
+commercial,"11.73454, -41.14144",3,4,brick,shingle,large,20,good,no,8.2
+commercial,"-6.54608, 18.63103",1,3,brick,solar panel,large,19,excellent,no,10
+residential,"-70.15534, 22.28940",2,1,wood,shingle,large,8,fair,no,8.5
+residential,"61.07064, -71.64357",2,1,metal,shingle,large,1,poor,no,3.3
+residential,"44.68261, 87.51113",1,4,wood,shingle,none,11,poor,yes,4.4
+residential,"-66.09599, 26.05328",2,5,brick,tile,small,9,poor,yes,4.3
+residential,"79.00777, -160.83643",4,5,metal,solar panel,large,5,poor,no,3.9
+residential,"10.52736, -160.26254",4,1,wood,tile,large,14,poor,no,4.3
+commercial,"-43.29678, 77.25147",3,4,metal,tile,large,18,poor,no,6.9
+residential,"62.13578, 169.79918",2,3,metal,solar panel,small,6,excellent,no,4.9
+residential,"63.19134, -76.38748",2,5,wood,shingle,small,7,fair,no,6.6
+residential,"54.56296, -157.44696",2,5,brick,tile,none,17,good,no,4.9
+commercial,"-36.25612, -163.01648",4,2,metal,solar panel,none,20,good,yes,5.2
+commercial,"-70.86937, 46.77569",3,4,wood,solar panel,large,6,poor,no,3.8
+residential,"-65.96732, -95.23168",3,5,metal,shingle,small,10,fair,no,3.7
+residential,"68.52171, 99.83280",5,3,wood,tile,small,11,excellent,yes,8.1
+commercial,"-35.34606, 75.11517",3,4,wood,tile,small,6,good,no,4.9
+commercial,"-12.92028, -48.31966",2,4,wood,solar panel,none,9,fair,yes,4.3
+residential,"-31.46033, 90.67481",3,3,brick,tile,large,1,fair,yes,4.8
+commercial,"31.27425, 23.78180",3,2,brick,shingle,none,16,poor,no,4
+residential,"-74.96585, -176.33779",2,1,brick,tile,small,2,fair,yes,6
+commercial,"71.53100, 87.24806",1,1,wood,solar panel,none,8,excellent,yes,10
+commercial,"-61.05355, 112.64230",2,4,wood,shingle,large,6,excellent,no,9.7
+commercial,"46.86489, -29.55363",4,4,metal,solar panel,small,15,excellent,no,5.8
+residential,"0.40339, -92.08119",4,2,wood,solar panel,large,5,good,yes,6.4
+commercial,"-27.68555, -70.99466",2,4,wood,shingle,small,6,excellent,no,7.4
+residential,"-23.65509, -109.69857",4,4,metal,shingle,large,13,excellent,yes,5.8
+residential,"12.83300, 133.68134",4,5,metal,tile,small,3,excellent,yes,5.6
+residential,"17.72905, -168.76912",4,1,metal,shingle,none,3,good,yes,4
+residential,"58.37855, 138.90501",3,2,brick,solar panel,none,15,excellent,no,10
+residential,"-80.57486, 174.66016",4,4,brick,tile,small,8,poor,yes,4.9
+residential,"68.32305, 60.20667",3,1,brick,solar panel,large,9,excellent,yes,8.9
+residential,"24.51030, -81.67156",5,4,wood,solar panel,large,7,fair,no,5.8
+residential,"2.51258, 91.97304",1,4,wood,tile,large,3,good,yes,5.7
+commercial,"73.80650, 119.03363",3,2,brick,solar panel,large,4,poor,no,10
+residential,"-51.88982, 86.08746",2,1,wood,solar panel,large,12,poor,yes,7.6
+residential,"5.24103, 25.95185",5,3,wood,solar panel,none,16,fair,yes,4.9
+residential,"81.15445, 36.42733",4,4,metal,solar panel,none,7,fair,yes,3.3
+commercial,"-30.48816, -153.47746",2,2,brick,solar panel,none,20,good,yes,8.6
+commercial,"-15.34588, -66.38995",4,4,metal,tile,large,14,fair,no,5.3
+residential,"-70.59053, 176.35970",3,5,brick,shingle,small,15,poor,yes,4
+residential,"-70.98670, -19.83762",4,3,brick,shingle,large,7,good,yes,6.2
+residential,"-38.79458, 67.09288",2,1,wood,solar panel,none,5,poor,yes,3.3
+residential,"-56.35388, -52.78193",1,4,metal,shingle,none,14,poor,no,3.4
+commercial,"-62.80931, -85.28118",2,5,brick,shingle,large,14,poor,no,7.7
+commercial,"85.40369, -103.99413",4,1,metal,shingle,small,3,poor,yes,3.5
+commercial,"53.26220, -35.49562",3,1,wood,shingle,small,2,good,yes,6.5
+residential,"-5.72096, -21.18730",3,5,brick,solar panel,none,20,fair,no,8
+commercial,"1.60900, 1.51631",2,2,metal,shingle,large,10,excellent,no,5.8
+commercial,"-5.03422, 76.79852",3,4,metal,shingle,small,3,good,no,4.1
+residential,"70.04468, -102.43351",5,2,wood,tile,none,10,poor,yes,4.1
+residential,"-10.79295, 18.59075",4,5,metal,shingle,small,1,poor,no,2.7
+commercial,"81.13536, 171.81941",4,1,brick,shingle,small,16,poor,yes,5.5
+commercial,"-68.54048, 124.92005",3,5,metal,solar panel,small,7,poor,yes,2.7
+commercial,"-51.35296, 91.98121",2,1,brick,solar panel,small,15,fair,no,8.1
+residential,"39.30822, 18.40931",5,2,brick,solar panel,none,14,excellent,yes,7.2
+commercial,"-4.47339, 75.65038",4,5,metal,solar panel,large,11,good,no,4.9
+residential,"21.77468, -166.91682",4,3,metal,shingle,large,12,excellent,yes,6.6
+residential,"-23.92476, 178.49321",4,3,metal,shingle,large,7,good,no,4.3
+residential,"11.62093, -103.33625",2,2,metal,tile,large,10,poor,no,5
+residential,"-40.48451, -165.76921",1,2,metal,shingle,none,6,excellent,no,5
+residential,"32.17033, 42.86986",3,4,metal,tile,none,13,good,no,3.6
+commercial,"-14.30218, -172.28120",3,2,brick,tile,none,3,excellent,no,4.6
+residential,"-44.33460, -99.44700",1,1,brick,tile,small,17,poor,no,6.6
+commercial,"-41.24736, 118.12333",3,4,brick,shingle,small,4,good,yes,5.7
+commercial,"69.33913, 32.88492",1,1,metal,shingle,none,8,poor,no,3.8
+residential,"0.99885, -176.04268",4,3,wood,shingle,large,4,excellent,yes,5.9
+residential,"-37.30278, -20.45016",5,1,wood,shingle,none,20,excellent,yes,10
+residential,"-66.45219, -160.02938",3,2,metal,tile,none,3,fair,yes,1.9
+residential,"10.73641, -68.52097",2,2,metal,tile,small,18,good,no,7.5
+residential,"27.19598, 82.13996",2,2,metal,shingle,none,3,good,no,4.8
+residential,"47.05153, 129.06791",5,1,metal,shingle,none,5,poor,no,3.4
+commercial,"14.69578, -79.05360",5,3,brick,tile,large,14,fair,no,7.6
+commercial,"61.98287, -93.98550",3,1,brick,shingle,large,15,good,no,6.7
+commercial,"89.27763, -61.97537",5,3,wood,tile,small,12,poor,yes,5.1
+residential,"9.87937, -123.63538",1,5,brick,solar panel,none,6,poor,no,4
+commercial,"30.09137, 109.96735",4,2,brick,solar panel,large,9,good,no,10
+commercial,"-22.04682, -157.30223",3,5,brick,shingle,none,15,good,yes,5.7
+commercial,"13.36627, -84.62604",5,4,metal,tile,small,20,poor,yes,3.9
+commercial,"-61.43120, -80.86538",5,2,metal,solar panel,none,14,fair,no,4
+residential,"-61.05803, 19.89146",1,1,brick,shingle,small,3,fair,no,8.7
+commercial,"45.77185, -147.14485",4,3,brick,shingle,none,17,fair,yes,7
+commercial,"-62.19193, 62.45830",1,2,brick,shingle,none,14,good,yes,8
+commercial,"-48.79327, -162.55252",3,1,metal,shingle,large,2,fair,no,6.3
+commercial,"-10.10540, -99.97175",4,1,brick,solar panel,none,3,good,yes,7.7
+commercial,"71.00046, -103.76195",2,4,metal,tile,none,8,fair,no,3.1
+residential,"-56.00187, -80.01532",2,3,wood,shingle,large,4,excellent,no,8.3
+residential,"-17.79226, 31.79983",3,1,metal,shingle,small,11,good,yes,8.5
+residential,"72.16339, 15.48731",5,1,metal,solar panel,large,15,fair,no,5.4
+commercial,"-89.31032, -177.61395",5,1,brick,tile,none,1,poor,no,2
+residential,"-19.40381, 29.61178",4,2,brick,tile,small,16,poor,yes,5.1
+residential,"-18.24444, -92.36277",2,4,wood,shingle,large,16,poor,yes,5.9
+residential,"82.73187, 99.86910",1,5,wood,shingle,large,4,excellent,yes,7
+residential,"-38.51036, 62.06014",3,1,metal,tile,large,8,good,yes,7.5
+residential,"57.51630, 161.25042",4,4,brick,shingle,small,13,good,no,9.8
+commercial,"-77.44269, -116.40204",5,2,wood,tile,none,15,poor,no,3.1
+residential,"-14.99112, -145.53848",2,1,wood,tile,none,16,excellent,no,10
+commercial,"-22.56105, 136.08760",4,4,brick,shingle,large,19,good,yes,8.7
+residential,"-46.53266, -113.48030",3,4,metal,solar panel,none,12,good,yes,5.1
+residential,"-13.52670, 102.11401",5,1,wood,tile,none,5,poor,yes,2.4
+commercial,"-89.50396, -110.47520",1,1,wood,tile,small,12,good,yes,8.3
+residential,"-44.54838, -20.69979",5,4,brick,solar panel,small,12,fair,yes,6
+commercial,"-89.06478, -16.24208",3,4,wood,shingle,small,12,poor,yes,6.2
+commercial,"43.29925, -78.54474",4,3,wood,shingle,none,10,excellent,yes,8.2
+residential,"21.78033, -107.76873",4,3,metal,solar panel,small,9,fair,no,4.5
+commercial,"33.82878, -19.05339",4,1,brick,shingle,small,12,poor,yes,6.2
+residential,"-66.35259, 118.87067",5,3,wood,shingle,small,5,excellent,yes,7.3
+residential,"81.44239, -47.97342",5,3,metal,shingle,large,2,poor,no,3.4
+commercial,"22.59801, -109.28554",5,2,metal,shingle,small,4,excellent,yes,4.4
+residential,"30.19631, -171.29356",3,3,metal,tile,none,13,excellent,yes,5.9
+residential,"49.29179, 103.14158",4,5,brick,shingle,small,14,fair,no,7.4
+residential,"-38.46697, 73.59710",3,2,wood,shingle,none,14,fair,no,4.4
+commercial,"67.96057, -73.00943",5,2,metal,tile,small,9,poor,no,3
+commercial,"58.34156, -70.12426",1,2,metal,tile,large,10,poor,yes,5.1
+residential,"63.95365, 49.24966",2,5,metal,solar panel,large,12,good,yes,7.1
+residential,"-77.89097, 15.08578",1,2,brick,shingle,none,18,poor,yes,6.9
+commercial,"27.23592, -126.44999",3,1,metal,shingle,none,16,fair,no,5.6
+commercial,"-47.30767, -170.24062",2,3,wood,tile,small,1,excellent,no,6.2
+commercial,"88.51884, 139.71104",1,4,metal,shingle,large,6,good,no,5
+residential,"-62.43477, -21.21232",2,5,brick,solar panel,large,7,excellent,no,10
+residential,"46.39604, 55.75384",2,2,brick,tile,none,16,excellent,yes,6.8
+residential,"-79.61356, 110.70336",3,2,metal,solar panel,small,3,fair,yes,4.6
+residential,"-24.16154, -113.07569",4,1,brick,shingle,none,18,poor,no,7.6
+residential,"11.56321, -49.13338",2,2,metal,tile,large,7,fair,no,5.3
+commercial,"-85.23752, 121.62068",5,5,wood,tile,small,14,good,no,4.8
+commercial,"86.35415, -25.21842",3,3,metal,shingle,large,1,good,yes,4
+commercial,"-5.50462, 127.54845",2,2,wood,solar panel,none,4,good,no,4.2
+commercial,"73.55654, 118.27388",3,3,wood,shingle,none,18,excellent,no,7.3
+residential,"18.56471, 170.97600",5,3,metal,tile,none,11,fair,no,3.2
+residential,"79.12129, 129.32141",4,1,brick,shingle,small,10,poor,no,5
+commercial,"-10.38322, 81.90483",3,4,wood,solar panel,large,15,poor,no,6
+residential,"-8.55561, -66.59468",4,3,wood,tile,none,13,good,yes,6.1
+residential,"-48.65830, 167.95713",5,3,wood,shingle,large,9,poor,yes,4.2
+residential,"37.29683, 158.72564",1,2,brick,shingle,none,9,excellent,no,10
+commercial,"61.46413, -101.71080",4,1,metal,solar panel,small,12,good,no,8.1
+commercial,"88.07997, -156.65787",1,3,wood,tile,none,7,poor,no,3.6
+residential,"-10.48338, -157.74391",1,3,metal,tile,large,13,poor,no,3.2
+residential,"12.85080, 20.34492",2,3,wood,tile,small,1,fair,yes,3.7
+residential,"-43.44325, 171.76102",1,4,wood,tile,large,4,fair,yes,5.8
+residential,"63.73201, 175.74127",4,3,wood,tile,small,1,good,yes,5.4
+residential,"-83.18833, 131.49509",1,4,brick,shingle,small,20,fair,no,9.4
+residential,"-15.64643, 178.91025",1,1,wood,shingle,small,12,fair,no,6.7
+commercial,"-58.44916, -140.30176",1,2,metal,shingle,small,20,good,no,7.8
+commercial,"11.41141, -163.97948",5,5,wood,tile,large,17,fair,yes,5.2
+residential,"28.53462, 36.46380",4,5,metal,tile,large,13,fair,no,4.6
+residential,"-20.21957, 115.73250",5,4,wood,tile,none,4,excellent,yes,4.3
+commercial,"63.40028, 118.34222",1,3,brick,tile,small,15,good,yes,6.6
+commercial,"62.89229, -25.91128",4,2,metal,solar panel,none,6,good,yes,4.7
+commercial,"-64.48074, 140.91992",1,4,metal,tile,none,4,poor,no,2
+residential,"-24.21582, 98.11339",4,5,wood,solar panel,none,19,poor,yes,3.5
+residential,"39.05839, -107.93682",5,2,wood,solar panel,small,2,fair,yes,4.2
+commercial,"-18.43458, -58.42917",5,5,metal,tile,large,4,poor,no,2.4
+commercial,"33.62393, 72.71629",3,5,wood,tile,none,1,good,no,3.9
+residential,"-70.15854, -139.86878",3,1,brick,tile,small,10,poor,yes,3.7
+residential,"-30.50591, -28.16175",1,3,brick,shingle,none,16,poor,yes,5.4
+residential,"53.87589, -26.40149",4,5,wood,solar panel,small,3,fair,yes,4.5
+commercial,"-30.59752, 91.28855",3,2,wood,solar panel,small,7,excellent,yes,6
+commercial,"56.49041, 86.66751",5,4,metal,shingle,small,10,fair,no,4.2
+residential,"-24.12338, -120.96780",4,1,wood,shingle,large,13,good,no,7.3
+residential,"-60.85332, 177.36066",1,4,metal,shingle,small,8,poor,yes,3.7
+commercial,"-10.70924, 118.05917",2,3,wood,tile,none,1,good,yes,3.8
+residential,"-30.68075, -138.65006",5,2,brick,tile,large,7,poor,no,6.5
+residential,"70.77838, -98.72738",2,5,metal,shingle,small,17,poor,no,5
+commercial,"-11.66150, 74.27126",5,4,metal,solar panel,small,7,good,yes,4.9
+residential,"65.71503, 119.10847",4,2,brick,tile,small,10,poor,no,4.2
+commercial,"-51.07769, -11.99224",4,1,wood,solar panel,none,7,excellent,yes,5.7
+commercial,"77.58598, -142.55083",2,3,wood,solar panel,large,10,poor,no,5.5
+commercial,"-65.90217, 166.17700",2,1,wood,tile,small,12,poor,no,4.5
+residential,"-43.80541, 60.43271",2,5,metal,shingle,large,8,fair,yes,3.8
+commercial,"-79.25343, -159.29404",5,5,wood,shingle,none,1,good,yes,3.3
+commercial,"30.89282, 41.19966",3,1,metal,shingle,large,8,fair,yes,8.2
+commercial,"-54.37669, -88.13577",2,2,wood,tile,none,10,poor,no,4.1
+residential,"-54.22859, -10.21483",2,4,brick,shingle,none,13,poor,no,5.7
+commercial,"-76.56308, -40.18903",4,4,metal,solar panel,none,17,good,no,6.4
+commercial,"-0.38759, -17.09985",4,2,brick,solar panel,small,9,good,yes,8.9
+commercial,"10.46244, 65.30608",4,5,brick,solar panel,large,15,poor,yes,9.3
+commercial,"-6.30854, 91.23788",5,3,metal,solar panel,none,9,good,yes,3.9
+residential,"-68.24861, 165.05347",4,3,wood,tile,large,16,good,yes,7.5
+residential,"52.07465, 50.20199",3,1,metal,tile,large,3,excellent,no,4.5
+commercial,"6.49917, -35.06953",2,5,metal,solar panel,none,14,good,no,5.3
+commercial,"57.76410, 130.90917",1,4,metal,tile,none,20,excellent,yes,5.4
+residential,"84.90829, -87.13979",1,2,wood,solar panel,small,10,poor,yes,5.8
+commercial,"-14.61592, 92.14656",1,4,wood,shingle,small,3,poor,yes,4
+residential,"-35.04911, 149.93288",3,4,wood,solar panel,large,3,fair,yes,4.6
+commercial,"-37.68230, -175.51305",1,2,brick,solar panel,none,7,good,no,5.7
+residential,"-34.69403, 140.68078",2,4,brick,solar panel,none,9,poor,yes,7.7
+residential,"-73.79093, 27.41892",1,5,wood,solar panel,large,13,fair,no,8.7
+residential,"54.89870, -60.57850",5,4,wood,solar panel,large,10,good,yes,7.8
+residential,"8.21286, -124.47293",3,2,brick,shingle,none,2,excellent,yes,7.3
+residential,"-33.28326, -93.98143",3,1,brick,tile,large,1,excellent,no,8
+residential,"14.56900, -141.69913",1,4,metal,shingle,none,18,poor,yes,5.8
+commercial,"-73.19399, 151.31729",2,4,wood,shingle,none,3,good,no,5.1
+residential,"37.15090, 99.71724",2,3,metal,shingle,large,17,good,yes,8.9
+residential,"-35.80688, -161.89783",3,5,metal,tile,large,17,poor,yes,3.5
+commercial,"-88.28791, 124.34824",5,2,wood,shingle,large,8,good,yes,6.9
+residential,"-67.16179, -160.08178",5,1,wood,tile,small,6,excellent,no,6.4
+commercial,"-5.50270, -10.19893",3,3,metal,solar panel,large,3,good,no,4.6
+commercial,"-76.03182, -133.27149",1,5,wood,tile,small,4,excellent,no,6.8
+residential,"-29.62057, -79.37702",1,4,brick,shingle,large,11,fair,yes,8.5
+residential,"-62.40677, 179.02101",2,4,wood,shingle,small,4,fair,no,7.4
+residential,"-59.83046, -78.50423",4,4,brick,shingle,large,2,excellent,no,5.7
+residential,"-6.90950, 140.18598",1,4,brick,tile,none,19,good,no,8.8
+commercial,"5.85564, -165.30553",4,4,wood,tile,large,16,poor,yes,7.6
+commercial,"-32.27402, -83.24963",3,5,metal,shingle,large,20,good,yes,7.9
+residential,"80.67361, 2.56178",5,3,brick,solar panel,large,3,excellent,yes,6.9
+residential,"-79.41596, -55.98524",2,2,metal,tile,large,9,poor,no,3.2
+residential,"-23.86196, -14.65718",2,5,brick,shingle,none,9,good,yes,6
+commercial,"15.33859, -69.49427",3,3,wood,tile,small,16,good,no,8
+commercial,"-34.35803, -78.70828",3,5,wood,solar panel,none,14,excellent,no,6.2
+commercial,"82.18165, 89.47143",3,1,brick,shingle,none,1,poor,no,4.9
+residential,"-74.61685, -125.62712",4,1,wood,solar panel,none,3,excellent,no,6.4
+residential,"15.17181, 156.26737",5,5,metal,solar panel,large,15,good,no,6.1
+residential,"-58.25529, 72.41483",4,2,metal,tile,small,11,fair,no,4.8
+commercial,"-10.83010, 115.26071",2,5,metal,tile,large,5,fair,yes,4.1
+residential,"-1.92314, 59.10509",5,4,brick,tile,large,17,fair,no,8.5
+commercial,"50.71024, 18.89343",2,4,brick,shingle,small,14,excellent,yes,10
+commercial,"-67.81814, 126.34442",5,5,brick,shingle,large,5,excellent,no,10
+commercial,"-76.77739, 56.70667",2,5,wood,shingle,large,2,excellent,no,7.2
+commercial,"-40.56882, 86.76394",4,5,wood,tile,small,15,poor,yes,4.7
+commercial,"2.33505, 154.65399",4,3,brick,solar panel,none,2,poor,yes,3.2
+commercial,"-47.69178, -111.64796",5,5,brick,solar panel,none,20,fair,no,7
+commercial,"-31.04638, 36.92724",1,4,wood,solar panel,none,7,excellent,yes,5.8
+residential,"75.23373, 117.29208",2,1,brick,shingle,large,14,poor,no,7.7
+residential,"89.78909, 118.43595",5,3,brick,tile,small,10,good,yes,6.2
+residential,"-74.98737, -37.07532",4,1,wood,tile,large,4,excellent,no,8
+commercial,"52.29774, 60.45610",2,4,metal,shingle,large,12,poor,yes,4.4
+commercial,"23.80164, -179.52119",3,1,wood,tile,small,11,poor,yes,4.6
+commercial,"38.85602, 122.91040",4,3,wood,tile,large,19,good,no,9.9
+commercial,"13.00954, 50.59668",3,5,wood,solar panel,large,14,excellent,yes,5.9
+commercial,"65.59990, 157.17011",2,4,wood,tile,small,12,excellent,no,7.3
+residential,"63.28153, -60.72450",2,1,brick,solar panel,large,10,good,yes,9.9
+commercial,"80.28934, -128.26855",3,3,wood,tile,small,18,good,yes,7.7
+commercial,"-21.90737, 105.69298",2,4,metal,shingle,none,15,good,yes,5.3
+residential,"-69.69106, -15.42155",2,3,metal,shingle,none,4,fair,no,4.7
+residential,"4.04371, 153.62149",2,5,wood,tile,none,11,excellent,no,5.1
+residential,"60.21887, 169.68998",3,5,metal,tile,none,5,excellent,no,4.7
+residential,"42.15880, 62.23276",2,3,brick,shingle,small,17,good,yes,9.5
+commercial,"82.82268, 73.16058",1,2,brick,shingle,large,10,fair,yes,7.2
+commercial,"11.04334, -147.48668",3,5,brick,solar panel,small,14,good,yes,8.6
+commercial,"-53.10681, -112.64478",5,4,brick,solar panel,small,7,poor,no,4.1
+residential,"73.81036, -21.66054",2,4,wood,shingle,none,18,poor,yes,4.1
+residential,"44.92772, -121.46875",2,4,wood,shingle,large,9,fair,no,7.3
+commercial,"-60.49082, -81.78961",3,3,wood,shingle,large,20,poor,no,7.5
+residential,"-40.08881, 95.41822",3,1,brick,tile,none,18,excellent,no,8.7
+commercial,"-69.60646, -157.08112",5,5,metal,solar panel,small,16,fair,no,6.2
+commercial,"-53.33008, -173.55718",5,1,metal,shingle,large,9,fair,yes,4.8
+commercial,"76.78375, -26.52050",1,4,metal,solar panel,none,15,good,yes,8.9
+residential,"-83.69675, 16.43707",2,2,metal,tile,large,18,poor,yes,4.8
+commercial,"54.06265, -86.64047",2,1,brick,tile,none,6,excellent,yes,7.3
+commercial,"66.52249, -129.62213",1,3,metal,tile,none,17,good,no,5.6
+residential,"-81.36508, 28.97199",3,1,wood,solar panel,large,6,poor,no,4.6
+residential,"-6.76529, 122.60230",5,5,wood,tile,none,15,excellent,yes,9.1
+commercial,"-54.41281, 12.82931",4,4,brick,shingle,none,20,good,yes,10
+residential,"62.87686, -108.39272",2,4,metal,solar panel,small,5,poor,no,2.6
+commercial,"83.81145, 111.54625",4,3,brick,tile,none,1,fair,no,2.8
+residential,"-33.71132, 78.24246",5,2,metal,tile,large,7,good,no,3.6
+commercial,"83.78238, -65.28154",1,1,wood,tile,none,3,excellent,yes,4.8
+commercial,"32.80566, -97.66862",5,3,wood,shingle,small,3,poor,no,4.5
+residential,"-5.57074, 158.46861",4,1,metal,solar panel,small,20,good,no,6.7
+residential,"-11.85970, -123.05246",3,4,metal,tile,small,17,poor,no,5.7
+residential,"-42.32195, -125.30062",4,5,brick,tile,none,3,poor,yes,2.5
+residential,"33.76808, 52.79691",3,5,wood,tile,large,18,excellent,no,7.6
+commercial,"-52.32673, -177.76326",5,5,metal,solar panel,none,2,fair,no,2.6
+residential,"24.12730, 135.55805",4,1,wood,tile,none,11,good,yes,5
+commercial,"24.10870, 150.80186",3,5,brick,solar panel,large,15,good,no,9.5
+residential,"5.68974, 173.80814",2,4,metal,solar panel,large,16,excellent,yes,7.9
+residential,"82.04343, -173.99423",5,1,metal,solar panel,none,6,poor,no,1.7
+residential,"47.48057, -4.06725",2,2,metal,tile,large,13,poor,no,5.2
+residential,"1.97128, 175.82701",2,1,metal,tile,none,5,poor,yes,2.3
+commercial,"-29.69256, 150.37169",3,1,brick,solar panel,large,17,fair,yes,10
+commercial,"73.22258, -124.67232",3,3,wood,shingle,large,8,poor,no,5.8
+residential,"-73.76113, 26.34799",5,5,wood,shingle,large,8,fair,no,6.9
+residential,"60.94788, 12.17172",2,4,brick,tile,small,7,excellent,no,6.8
+commercial,"-1.93424, -133.23112",4,5,brick,solar panel,none,20,excellent,yes,5.3
+residential,"85.89714, -134.73571",2,3,metal,tile,large,15,poor,yes,4.6
+commercial,"28.80009, -12.40318",1,1,brick,solar panel,large,3,good,no,7
+commercial,"-26.73529, 96.71493",1,5,brick,solar panel,none,10,excellent,yes,7
+commercial,"-62.02094, -42.64587",3,4,wood,solar panel,none,15,poor,yes,5.6
+commercial,"46.09419, -2.64265",5,1,wood,tile,small,7,good,yes,5.3
+residential,"5.20592, 24.62869",1,1,brick,shingle,small,7,fair,yes,10
+residential,"59.09878, 40.71772",1,3,wood,solar panel,none,6,excellent,no,6.7
+commercial,"-17.45804, -77.19391",2,2,wood,shingle,small,10,good,no,5.8
+residential,"70.80226, -78.49066",5,4,brick,shingle,small,12,excellent,no,8.1
+residential,"77.88312, 24.31810",1,1,brick,shingle,none,2,poor,yes,3
+commercial,"-4.24022, 4.17650",5,2,wood,solar panel,none,12,fair,no,4.3
+residential,"72.67896, 177.39472",3,4,metal,shingle,large,16,good,no,7.8
+residential,"89.35256, 72.64709",1,4,metal,shingle,large,19,fair,no,9.7
+commercial,"-76.54518, 11.02004",2,3,wood,solar panel,none,12,poor,yes,6
+residential,"-79.14901, 75.33941",3,3,wood,solar panel,none,1,good,yes,4
+commercial,"63.98544, -64.07176",3,3,brick,shingle,large,10,good,no,7.8
+commercial,"-58.15191, 161.73363",1,2,metal,shingle,large,18,excellent,yes,7.1
+residential,"-0.94131, 89.83413",2,4,wood,tile,large,3,poor,yes,4.6
+residential,"79.01148, 76.42725",5,1,wood,tile,small,1,good,yes,5.4
+commercial,"23.16891, -29.33299",5,2,wood,tile,none,9,poor,no,2.8
+commercial,"85.94722, 148.93209",4,5,wood,shingle,none,6,fair,no,3.1
+residential,"-11.54454, 43.16239",4,1,brick,tile,large,1,fair,no,6.4
+residential,"49.38803, 82.08641",2,4,wood,tile,none,19,fair,yes,5.2
+commercial,"-3.27615, 123.43150",2,1,brick,tile,none,10,good,yes,5.5
+residential,"67.11933, 82.96509",3,5,metal,tile,small,4,good,yes,4.2
+commercial,"-58.94151, 77.07811",5,3,metal,tile,none,6,good,no,3.8
+residential,"-8.19867, -84.09587",1,5,brick,solar panel,large,18,excellent,yes,10
+commercial,"-48.05660, 20.44986",2,1,metal,solar panel,large,16,poor,no,5.9
+commercial,"-69.57378, -55.79477",2,5,brick,solar panel,large,14,good,no,10
+commercial,"-56.97861, 95.53897",5,5,brick,shingle,large,9,excellent,no,10
+residential,"-48.18712, 141.47684",2,4,brick,shingle,large,4,poor,yes,7.1
+commercial,"21.63505, 28.36933",2,4,metal,tile,small,6,fair,yes,3.5
+residential,"54.70976, -172.10635",1,4,wood,solar panel,none,15,excellent,yes,7.7
+residential,"-66.98231, -76.15498",4,5,brick,solar panel,large,12,fair,no,6.1
+residential,"13.33230, -85.29904",3,1,metal,shingle,small,11,poor,yes,6.1
+commercial,"10.07711, 88.42798",1,2,wood,solar panel,small,16,excellent,yes,9
+commercial,"61.94350, 139.17083",2,2,brick,shingle,large,11,fair,yes,8.6
+commercial,"-48.59137, -58.30117",2,2,wood,solar panel,large,17,poor,no,5.8
+commercial,"-41.31408, 31.90376",4,1,wood,tile,large,4,good,yes,6.2
+commercial,"-26.13912, 118.45972",5,4,metal,solar panel,large,7,good,yes,6.9
+commercial,"-18.63815, -153.37836",2,2,brick,tile,small,10,good,yes,4.9
+commercial,"-48.58076, 122.00053",5,3,brick,solar panel,small,1,excellent,yes,6.1
+commercial,"-39.87616, 56.81559",4,4,metal,tile,small,6,excellent,no,4.9
+residential,"2.22980, 121.35074",4,3,metal,tile,large,20,good,no,6.2
+residential,"14.46224, -22.30922",3,4,brick,tile,none,8,excellent,yes,6.6
+commercial,"22.32250, -156.00437",2,4,wood,tile,large,17,fair,yes,5.3
+commercial,"69.02465, 87.17784",1,1,metal,solar panel,small,1,poor,no,3
+residential,"77.25982, -165.16522",3,1,wood,solar panel,small,4,excellent,no,9
+commercial,"1.18450, 19.58718",2,4,wood,shingle,small,17,poor,no,4.4
+residential,"9.69647, -53.99685",2,1,brick,shingle,small,18,fair,yes,7.1
+residential,"1.86885, 37.98617",1,1,brick,shingle,small,18,excellent,no,10
+residential,"-86.53193, -66.09278",4,3,wood,shingle,none,12,fair,no,5.1
+commercial,"44.45043, 35.31745",4,4,brick,solar panel,none,4,good,yes,5.4
+commercial,"-76.52976, -112.84125",4,3,metal,solar panel,small,11,good,no,7
+residential,"-17.68717, -20.54980",3,2,brick,solar panel,none,15,good,yes,7.8
+residential,"-76.25304, -48.74079",3,2,brick,solar panel,none,17,good,no,6.7
+commercial,"14.49382, 11.84066",2,1,wood,tile,small,13,excellent,no,6.5
+commercial,"40.60766, 39.95313",5,5,wood,solar panel,none,18,excellent,no,7.3
+commercial,"42.25653, -88.09644",3,4,metal,tile,large,15,fair,yes,5
+commercial,"-9.84497, 165.68792",4,3,metal,solar panel,large,18,fair,yes,8.2
+commercial,"-47.52045, -35.44911",4,5,brick,solar panel,none,4,fair,yes,4.6
+residential,"62.12860, -11.15646",4,4,wood,shingle,small,18,excellent,no,8.7
+residential,"24.42454, 48.73798",2,2,brick,shingle,large,8,good,no,9.5
+commercial,"-44.54450, 132.26496",1,4,metal,tile,none,17,fair,yes,4.6
+residential,"47.65583, 67.87506",1,1,wood,tile,large,9,poor,yes,7.8
+commercial,"5.74841, 111.67513",5,3,wood,tile,small,7,poor,no,3.9
+commercial,"-33.59705, -34.04355",3,5,brick,tile,none,4,poor,no,2.5
+residential,"-37.82355, 53.10697",5,2,brick,tile,none,3,fair,yes,2.3
+commercial,"0.83720, 80.16829",3,4,brick,solar panel,large,11,excellent,yes,8.6
+commercial,"67.43985, -129.58162",5,4,wood,tile,small,9,excellent,no,5.1
+residential,"72.16992, -76.28333",4,1,metal,tile,none,7,good,no,3.3
+residential,"61.33555, 159.67263",4,1,metal,tile,large,7,good,no,6.8
+commercial,"20.75065, 118.58873",1,1,metal,solar panel,large,3,fair,no,5.9
+residential,"32.93727, -15.75664",4,2,wood,shingle,none,9,excellent,yes,6.2
+commercial,"25.90971, -16.04575",2,2,metal,solar panel,small,20,fair,yes,7.4
+commercial,"73.87607, 17.71330",5,2,wood,tile,small,4,poor,yes,4.7
+commercial,"86.35818, -49.84099",2,2,wood,solar panel,small,18,fair,no,5.9
+commercial,"-29.67096, -79.48381",1,5,wood,solar panel,small,19,good,yes,9.1
+commercial,"80.00601, 40.00481",3,2,metal,tile,none,18,poor,yes,6.3
+residential,"18.51210, 52.28378",2,4,wood,tile,small,11,excellent,no,5.9
+commercial,"39.89905, 97.31109",5,3,wood,tile,small,19,good,no,9.8
+commercial,"22.34456, -98.78586",2,3,metal,solar panel,large,14,poor,yes,6.2
+commercial,"31.13092, -77.72653",4,1,metal,shingle,none,4,poor,yes,2.2
+residential,"54.66317, 174.39437",4,2,brick,tile,small,13,poor,no,5
+commercial,"-50.05391, 48.74901",4,5,metal,shingle,large,15,poor,yes,5.2
+residential,"-79.48303, -53.93956",1,2,wood,solar panel,none,8,excellent,no,10
+residential,"0.39100, 157.66778",1,5,brick,tile,none,17,poor,yes,4.7
+residential,"87.50334, -64.25502",3,2,wood,shingle,large,7,poor,no,6.6
+commercial,"-79.24149, -84.35202",3,4,wood,solar panel,large,13,poor,no,5.2
+commercial,"-22.78465, -69.84510",2,4,brick,shingle,large,7,poor,yes,5.9
+residential,"71.91767, -33.62866",3,3,wood,shingle,small,16,excellent,yes,8.5
+residential,"-18.13450, -115.26907",2,4,metal,solar panel,large,13,poor,yes,5.2
+commercial,"-19.02827, -34.10132",5,4,brick,shingle,none,14,excellent,no,8
+residential,"-12.74397, 98.26282",4,4,wood,shingle,small,4,good,no,5
+commercial,"75.81892, 138.17395",4,3,wood,solar panel,large,7,poor,yes,4.7
+commercial,"25.75824, 46.88354",2,2,metal,shingle,none,4,excellent,yes,5.7
+residential,"17.52631, 110.92293",5,5,wood,shingle,large,13,excellent,yes,6.8
+commercial,"69.25958, -29.15317",3,2,wood,solar panel,large,2,excellent,no,8.9
+residential,"59.52585, -21.10885",3,1,brick,shingle,none,13,poor,no,7.4
+commercial,"-89.81147, 62.89487",3,2,wood,tile,large,5,good,yes,4.4
+residential,"78.46164, 47.05771",4,3,brick,tile,small,3,excellent,no,6.2
+residential,"87.72268, -129.52664",4,1,wood,solar panel,none,8,poor,no,3.4
+residential,"-62.58819, 19.91878",1,1,brick,solar panel,large,19,poor,no,10
+residential,"-73.69250, -41.90074",2,3,brick,solar panel,none,11,poor,yes,4.8
+residential,"-80.23729, 118.79930",5,4,brick,tile,large,18,good,no,10
+commercial,"63.47997, -101.03932",1,3,wood,shingle,none,4,fair,yes,5.6
+commercial,"61.99213, 155.01910",1,5,brick,shingle,large,9,poor,no,5.6
+commercial,"0.03527, 96.69327",1,3,wood,solar panel,large,19,fair,yes,8.9
+residential,"0.61313, 45.30908",5,3,metal,tile,small,6,fair,no,3.6
+residential,"-8.25958, 64.39160",5,5,metal,shingle,large,9,fair,no,3.6
+residential,"47.76990, 165.14076",2,5,metal,tile,small,15,poor,yes,3
+residential,"-37.97487, 113.93068",2,2,wood,tile,small,11,fair,no,6.4
+commercial,"-34.71905, 143.91769",3,5,wood,shingle,small,7,excellent,no,6.8
+residential,"2.55376, 158.56740",1,4,wood,solar panel,none,3,good,no,5.7
+commercial,"70.66177, -89.17707",1,1,metal,tile,none,18,excellent,no,6.8
+commercial,"-60.48387, -140.43305",5,5,metal,tile,large,12,fair,yes,4.4
+commercial,"82.21345, -43.56414",5,2,metal,shingle,large,3,fair,no,5.6
+residential,"-16.79762, 156.58820",3,4,metal,shingle,none,17,good,no,5.8
+commercial,"44.02036, 46.49102",3,2,wood,solar panel,none,11,good,no,6.8
+commercial,"-34.89974, 106.34403",5,3,brick,shingle,small,7,fair,no,4.7
+commercial,"55.23764, -12.03200",4,3,wood,tile,large,1,excellent,no,6.6
+commercial,"-86.37572, 79.91299",3,4,metal,solar panel,large,17,fair,yes,4.7
+commercial,"9.23526, -39.78022",2,5,brick,tile,large,14,fair,yes,9.5
+residential,"-86.57169, -61.16211",2,4,metal,solar panel,small,12,excellent,yes,6
+commercial,"-73.28116, -65.19305",1,2,metal,tile,none,2,good,no,2.3
+residential,"-15.91149, -46.49741",3,4,brick,solar panel,none,1,poor,no,4.4
+commercial,"-17.69787, 142.27664",1,2,brick,shingle,none,2,good,yes,6.5
+residential,"-47.59266, 87.92228",5,5,metal,solar panel,small,17,excellent,yes,5.1
+commercial,"38.55217, -71.69786",4,3,brick,tile,large,14,poor,yes,4.8
+residential,"-25.49467, -18.44178",3,4,brick,solar panel,large,3,good,no,8
+residential,"37.80231, 100.34432",4,1,metal,shingle,none,7,good,yes,4.1
+residential,"27.96524, 31.32155",1,4,wood,shingle,none,15,fair,no,5.3
+residential,"-14.18658, -168.74519",5,3,brick,solar panel,none,10,poor,yes,3.8
+commercial,"-17.69341, 132.50446",1,5,wood,shingle,none,20,poor,no,6.1
+residential,"81.02102, 31.45956",2,3,wood,shingle,none,20,excellent,no,7.3
+residential,"52.40414, 60.77435",5,2,brick,tile,large,13,good,no,6.9
+residential,"-33.54000, -105.88397",2,1,brick,shingle,none,8,excellent,no,6.9
+residential,"9.06262, 124.22455",3,4,wood,shingle,small,16,poor,yes,4.4
+commercial,"-87.75982, 164.23113",4,3,metal,shingle,large,11,good,yes,6
+commercial,"20.45822, -9.68685",1,5,wood,tile,none,9,excellent,no,5.9
+residential,"26.39208, 148.35198",5,3,wood,shingle,small,16,excellent,yes,10
+residential,"-34.71578, 53.11654",5,3,wood,shingle,large,17,poor,yes,6.9
+residential,"68.17753, -46.42406",5,3,wood,shingle,none,5,fair,yes,4.9
+residential,"-54.62276, -161.39429",4,1,brick,solar panel,none,10,good,no,6.6
+commercial,"-88.90230, 2.69258",4,2,brick,solar panel,small,5,good,no,5.9
+residential,"44.12577, -61.75286",5,2,wood,solar panel,large,16,excellent,no,8.2
+residential,"-71.29501, -132.19194",4,1,metal,shingle,large,17,good,yes,6.7
+commercial,"-38.41445, -52.39371",1,2,brick,shingle,small,18,excellent,yes,10
+residential,"40.21250, 40.62205",2,2,metal,tile,none,8,fair,yes,4.1
+residential,"-1.54191, 165.77411",1,1,metal,tile,none,9,excellent,yes,4.9
+residential,"-20.95118, -135.01233",4,3,wood,shingle,large,9,excellent,yes,7.5
+residential,"19.10660, 46.60762",5,5,brick,tile,large,4,good,yes,5.8
+residential,"43.66403, 82.03584",2,1,brick,tile,none,11,good,yes,5
+residential,"-10.23256, 54.06450",4,4,metal,shingle,none,19,good,no,6.6
+commercial,"-65.71934, -2.80852",2,2,wood,tile,large,11,poor,yes,5.6
+commercial,"42.12135, -89.26964",1,4,wood,solar panel,large,8,fair,no,5.7
+commercial,"77.31417, 138.87725",3,2,wood,shingle,none,11,excellent,yes,10
+residential,"47.99330, 36.04688",5,3,wood,tile,none,16,fair,yes,5.2
+commercial,"41.27134, 72.37329",3,3,brick,shingle,large,13,fair,yes,7.2
+residential,"65.32721, 71.97427",4,3,metal,shingle,small,9,good,yes,6
+commercial,"-11.45140, -77.20795",5,4,metal,tile,large,12,poor,yes,3.1
+residential,"73.82599, -148.33525",2,1,metal,shingle,none,7,poor,no,4.7
+residential,"-77.74910, 63.95099",1,2,metal,shingle,none,15,fair,yes,5.7
+commercial,"65.62941, -177.99550",4,5,wood,tile,large,3,good,no,5.5
+residential,"-59.38567, -167.41365",4,5,brick,shingle,none,15,good,yes,7.5
+residential,"67.39640, 41.67196",1,3,metal,tile,small,15,poor,yes,3.4
+residential,"66.89967, -105.87130",1,4,brick,tile,none,16,excellent,yes,7.6
+residential,"-31.20747, 12.51683",5,1,wood,shingle,large,5,good,no,6.6
+commercial,"-78.68076, -9.83684",1,5,brick,tile,small,10,good,no,5
+residential,"57.07350, 41.82010",4,1,wood,shingle,large,16,excellent,yes,9
+residential,"27.82755, -53.55993",2,5,brick,tile,small,1,fair,yes,5.5
+commercial,"4.53289, -33.96969",2,4,metal,solar panel,none,7,excellent,no,4.3
+residential,"-32.80829, -28.76734",3,3,wood,shingle,small,15,good,no,6.1
+residential,"-19.04450, -168.50223",1,4,wood,shingle,small,3,fair,no,4.9
+residential,"-59.59626, -111.82578",1,3,metal,solar panel,large,3,excellent,no,6
+residential,"-62.50686, 30.78893",4,4,wood,tile,small,10,fair,yes,5.3
+residential,"-15.61609, -175.51278",2,2,brick,tile,small,5,fair,yes,4.3
+commercial,"-50.38074, -107.13049",3,4,wood,tile,large,10,good,yes,5.8
+residential,"0.36336, 143.02569",5,3,wood,solar panel,small,12,good,yes,9.5
+commercial,"85.93415, -3.74601",2,5,metal,tile,large,17,poor,yes,4.9
+commercial,"77.47969, -140.43844",1,4,wood,shingle,small,5,poor,no,3.6
+residential,"59.85528, 86.92455",2,2,brick,shingle,none,5,fair,yes,4.9
+residential,"-47.03087, -71.28762",4,3,wood,solar panel,small,6,fair,no,6.2
+residential,"-75.73239, -6.77180",5,5,metal,solar panel,small,1,fair,yes,3.3
+commercial,"73.13519, -118.78655",4,3,wood,shingle,small,3,excellent,yes,4
+residential,"61.76570, -76.78928",5,4,brick,tile,small,14,fair,no,4.4
+commercial,"17.91566, -55.23070",1,2,brick,tile,none,5,excellent,yes,7
+commercial,"17.13613, 170.46673",5,1,brick,tile,large,12,poor,yes,5.8
+commercial,"23.71343, -18.00561",1,3,brick,tile,none,11,good,no,6.8
+residential,"58.88403, -60.31521",5,1,metal,solar panel,small,19,poor,yes,5.6
+residential,"-69.74245, 34.87720",5,4,metal,solar panel,none,17,poor,yes,4.2
+commercial,"56.37351, -91.98013",5,5,wood,shingle,large,14,fair,yes,7.5
+residential,"75.23777, -34.97054",4,2,brick,solar panel,none,7,excellent,yes,7.9
+residential,"-76.07879, -118.89251",5,1,wood,solar panel,small,6,excellent,no,6.9
+commercial,"39.47520, -45.24408",4,2,brick,shingle,small,20,poor,yes,10
+residential,"2.23617, -115.89881",5,3,brick,tile,large,18,poor,yes,5.6
+residential,"77.74849, -173.05835",5,1,metal,tile,small,16,poor,no,5.9
+commercial,"-45.46327, -156.54726",5,1,metal,tile,none,14,excellent,yes,6.3
+residential,"-56.08454, -127.53133",5,1,brick,tile,none,9,poor,yes,3.9
+residential,"-0.46476, -76.82884",5,5,metal,solar panel,small,13,good,yes,5.6
+residential,"-21.46124, 175.19037",1,4,wood,shingle,small,11,poor,no,4.2
+commercial,"-38.55407, -141.05853",1,2,metal,shingle,large,9,good,no,6.4
+residential,"-66.92097, 162.01638",3,4,brick,tile,large,2,excellent,yes,5.9
+residential,"-2.71826, -145.28138",1,5,wood,shingle,large,16,fair,no,8.9
+residential,"23.24926, -108.98074",5,4,brick,solar panel,small,17,excellent,yes,8.5
+residential,"23.23961, -121.99662",2,5,metal,shingle,large,2,poor,yes,3.7
+residential,"9.94096, -67.91432",4,3,metal,tile,large,12,good,no,5.8
+residential,"23.80374, -173.40000",1,5,wood,tile,large,18,good,yes,5.1
+commercial,"68.77497, -82.06380",1,4,brick,shingle,small,18,poor,yes,7.5
+commercial,"82.53533, -75.15228",2,2,wood,tile,none,13,good,no,4.2
+commercial,"82.16367, 174.58099",2,3,metal,tile,large,3,excellent,yes,6.8
+residential,"33.13820, 159.84216",5,1,wood,tile,large,14,good,yes,7.3
+commercial,"85.80109, -137.92998",4,1,brick,solar panel,small,19,good,yes,6.9
+commercial,"53.18867, -26.60523",2,5,wood,tile,small,7,excellent,yes,5.3
+commercial,"87.17131, 77.92759",3,2,metal,solar panel,large,19,good,yes,5.6
+residential,"-77.89016, 33.20076",2,3,brick,solar panel,large,1,excellent,yes,10
+commercial,"-67.74906, 67.11239",5,3,metal,solar panel,large,15,poor,yes,5.1
+commercial,"26.81227, -51.73175",1,2,brick,shingle,none,9,fair,yes,6.8
+residential,"-21.94586, -12.12728",1,4,metal,tile,small,16,excellent,no,6.6
+commercial,"-78.20042, 100.53676",2,5,brick,solar panel,small,12,good,yes,6
+residential,"-38.58093, -56.33032",1,1,wood,tile,small,11,fair,no,5.7
+commercial,"-28.52554, 169.60803",4,2,metal,solar panel,none,3,good,yes,4.4
+commercial,"44.14973, 145.16735",1,2,brick,tile,none,2,fair,yes,5.2
+commercial,"-2.37478, 152.55607",5,4,metal,solar panel,small,2,poor,no,3.6
+residential,"-1.21710, 156.79252",2,3,wood,tile,none,20,good,yes,8.1
+residential,"-23.38338, 123.77289",4,5,wood,tile,none,11,excellent,no,6.1
+commercial,"-80.57254, 39.70729",2,2,wood,shingle,none,12,excellent,yes,8.5
+residential,"-46.03882, -58.54449",2,2,wood,solar panel,small,11,fair,yes,6.3
+residential,"33.03526, 46.45631",4,3,metal,shingle,none,14,excellent,yes,5.6
+residential,"-51.87071, 4.71182",2,2,brick,solar panel,large,13,poor,no,8.5
+commercial,"21.65039, -148.89942",4,3,brick,shingle,none,12,good,no,8.3
+residential,"-8.14346, -91.48737",1,5,metal,tile,large,8,good,no,5.7
+residential,"-77.16431, 116.24297",4,3,brick,tile,large,7,good,yes,4.6
+commercial,"-44.53126, -151.01863",4,5,metal,solar panel,none,17,fair,yes,3.6
+residential,"-88.88385, 45.54273",2,2,metal,shingle,small,5,good,yes,6.1
+commercial,"79.73068, 179.20329",3,4,metal,shingle,none,16,excellent,no,4.5
+commercial,"20.64996, 73.39028",4,4,metal,solar panel,large,16,poor,no,4.5
+residential,"-81.06405, -143.81308",5,5,brick,solar panel,small,14,excellent,no,6.6
+commercial,"82.40928, -158.51876",2,5,metal,tile,small,7,good,no,3.3
+residential,"2.10740, 63.05896",1,4,metal,solar panel,large,5,excellent,yes,8.7
+residential,"12.56242, -35.12594",4,5,brick,shingle,small,11,fair,yes,9.3
+residential,"-2.53256, -109.30534",1,5,metal,shingle,small,19,poor,no,7.6
+commercial,"11.88389, -128.40295",2,5,metal,solar panel,small,8,good,no,3.5
+commercial,"-62.31283, 24.07343",5,1,brick,shingle,large,14,good,no,9.4
+commercial,"-64.36461, -64.83931",5,3,metal,tile,large,1,fair,no,2.9
+commercial,"-21.24906, 162.66359",4,2,wood,shingle,large,17,fair,no,9
+commercial,"-33.23940, 86.31862",3,2,wood,solar panel,none,19,poor,yes,5.7
+residential,"47.53973, 22.64497",3,5,metal,solar panel,small,10,poor,no,3.4
+residential,"-86.94582, -121.39745",3,2,wood,tile,none,13,excellent,yes,5.5
+residential,"-21.78935, -179.36733",5,3,metal,shingle,large,1,fair,yes,3.4
+commercial,"37.30360, -171.44785",3,3,metal,solar panel,large,1,poor,no,3.3
+commercial,"-42.30644, 88.07025",4,4,wood,tile,large,19,excellent,no,7.9
+commercial,"-37.10460, -24.20847",5,1,wood,solar panel,none,4,excellent,yes,5.6
+commercial,"-54.37816, 146.33365",1,3,metal,shingle,large,8,good,yes,8.6
+commercial,"50.66354, 150.76144",5,3,brick,solar panel,large,3,good,yes,6.7
+residential,"-67.77562, -68.94835",3,5,brick,solar panel,none,3,good,yes,5.1
+residential,"-73.48107, 105.80026",4,2,metal,tile,none,18,excellent,no,5.3
+residential,"35.88245, 171.39438",2,3,brick,solar panel,small,14,good,no,8.1
+residential,"47.99197, 164.67318",2,5,wood,tile,large,7,good,no,7
+residential,"1.07214, 118.81096",1,3,metal,shingle,large,11,fair,no,8.8
+commercial,"84.79490, -60.03921",3,2,wood,solar panel,none,10,fair,yes,4.9
+residential,"43.85131, -5.71768",4,4,metal,tile,small,4,good,no,3.8
+commercial,"-63.03692, 138.96915",4,3,wood,solar panel,large,7,poor,yes,4.2
+residential,"-20.82993, -91.72972",1,2,metal,tile,large,4,fair,no,4.1
+commercial,"40.19282, -168.49113",2,1,brick,tile,small,18,poor,no,7.5
+commercial,"-20.04360, 12.98465",5,1,brick,solar panel,large,11,poor,no,6.3
+commercial,"80.59631, -165.42558",3,1,wood,tile,small,3,excellent,yes,5.8
+residential,"18.03289, 153.91749",1,5,wood,solar panel,large,3,excellent,no,6.7
+residential,"-0.96803, 174.71273",2,5,metal,solar panel,large,9,excellent,yes,5.9
+residential,"-73.28171, -95.04185",5,3,metal,solar panel,none,13,poor,yes,5.5
+residential,"-28.12429, 160.17394",4,5,metal,tile,none,6,fair,yes,2.8
+residential,"-25.04100, 68.88078",4,2,wood,solar panel,small,11,fair,no,4.3
+residential,"-26.34531, -74.54786",3,4,brick,shingle,large,19,good,yes,10
+commercial,"60.74046, 114.25062",3,1,metal,solar panel,none,7,excellent,yes,7.6
+commercial,"9.62363, 15.22023",2,4,brick,solar panel,small,1,excellent,yes,7.4
+commercial,"-84.26918, -96.12213",3,2,metal,tile,none,6,poor,yes,2
+commercial,"7.15500, -78.12071",3,2,metal,solar panel,none,3,good,yes,6.2
+residential,"-19.85300, 91.27744",5,1,brick,tile,none,18,good,no,9.1
+residential,"64.44209, -30.24159",4,1,metal,shingle,small,5,fair,no,4.9
+residential,"61.23331, -55.98569",5,5,metal,solar panel,small,16,good,yes,4.9
+commercial,"37.44693, 65.89327",3,3,brick,tile,small,14,fair,no,5.8
+commercial,"71.53748, 103.21711",1,2,metal,shingle,small,7,poor,yes,7.2
+commercial,"-84.70478, -51.27068",5,3,brick,solar panel,small,20,excellent,yes,8.4
+residential,"49.57514, -3.67097",4,4,metal,shingle,none,20,poor,yes,4.8
+commercial,"-70.89274, -0.69116",2,2,metal,tile,large,18,poor,yes,5.3
+residential,"-31.24751, -146.15237",1,3,metal,tile,small,14,good,yes,6.3
+residential,"2.01022, 24.43277",3,2,brick,tile,none,13,poor,no,6
+commercial,"-58.12834, -131.05507",5,3,metal,shingle,small,15,good,no,7.2
+residential,"22.24069, 85.40527",1,5,brick,solar panel,large,10,excellent,yes,10
+residential,"82.30554, 122.67927",3,1,wood,solar panel,none,16,excellent,no,6.9
